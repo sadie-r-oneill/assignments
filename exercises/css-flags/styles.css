@@ -1,0 +1,175 @@
+.france {
+    display: inline-block;
+
+}
+
+.france-1 {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background:blue;
+    position: relative;
+    margin-left: 20px;
+}
+
+.france-2{ 
+    display: inline-block;
+
+    width: 200px;
+    height: 400px;
+    background: white;
+    position: relative;
+   
+
+}
+
+.france-3{
+    display: inline-block;
+    width:200px;
+    height:400px;
+    background:red;
+    position: relative;
+   
+   
+    
+
+}
+
+.germany{
+
+    display:inline-block;
+    padding-top: 100px;
+    
+
+}
+.germany-1{
+
+    display:inline-block;
+    width: 600px;
+    height: 125px;
+    background:black;
+    position: relative;
+   
+   
+}
+
+.germany-2 {
+
+    display:inline-block;
+    width: 600px;
+    height: 125px;
+    background:red;
+    position: relative;
+   
+
+}
+
+.germany-3{
+
+    display:inline-block;
+    width: 600px;
+    height: 125px;
+    background:yellow;
+
+}
+
+.madagascar
+{
+    display:inline-block;
+    padding-top:100px;
+    
+}
+
+.madagascar-1 {
+
+    display:inline-block;
+    width:200px;
+    height:440px;
+    background:white;
+    position: relative;
+    border:lightskyblue 5px solid;
+
+
+}
+
+.madagascar-2{
+
+    display:inline-block;
+    width:475px;
+    height:225px;
+    background:red;
+    position:relative;
+    bottom:225px;
+    margin-right:95px;
+}
+
+.madagascar-3{
+
+    display:inline-block;
+    width:475px;
+    height:225px;
+    background:green;
+    position:relative;
+    bottom:230px;
+    margin-left: 214px;
+}
+
+.switzerland {
+
+    display:inline-block;
+    width:550px;
+    height:550px;
+    background:white;
+    border: gray 5px solid;
+  
+
+
+}
+.switzerland-1 {
+
+    display:inline-block;
+    width:200px;
+    height:200px;
+    background:red;
+    border: gray 5px solid;
+    position: absolute;
+  
+
+}
+
+.switzerland-2 {
+
+    display:inline-block;
+    width:200px;
+    height:200px;
+    background:red;
+    border: gray 5px solid;
+    position: relative;
+    margin-left:340px;
+  
+}
+.switzerland-3 {
+
+    display:inline-block;
+    width:200px;
+    height:200px;
+    background:red;
+    border: gray 5px solid;
+    position: relative;
+    margin-top:135px;
+  
+
+}
+.switzerland-4 {
+
+    display:inline-block;
+    width:200px;
+    height:200px;
+    background:red;
+    border: gray 5px solid;
+    position: absolute;
+    margin-left:135px;
+    margin-top:135px;
+  
+
+}

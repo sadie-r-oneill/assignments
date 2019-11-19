@@ -1,0 +1,21 @@
+body, html {
+
+    margin: 10px;
+
+}
+.space-one{
+
+    display: inline-block;
+}
+
+.space-two{
+
+    display: inline block;
+
+}
+
+.box-model {
+
+    height: 350px;
+  width: 450;
+}
