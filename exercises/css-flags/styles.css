@@ -119,7 +119,7 @@
     display:inline-block;
     width:550px;
     height:550px;
-    background:white;
+    background:red;
     border: gray 5px solid;
   
 
@@ -128,11 +128,14 @@
 .switzerland-1 {
 
     display:inline-block;
-    width:200px;
-    height:200px;
-    background:red;
-    border: gray 5px solid;
-    position: absolute;
+    width:75px;
+    height: 550px;
+    background:white;
+    border:gray 5px solid;
+    text-align: center;
+
+
+
   
 
 }
@@ -142,34 +145,9 @@
     display:inline-block;
     width:200px;
     height:200px;
-    background:red;
+    background
     border: gray 5px solid;
     position: relative;
     margin-left:340px;
   
-}
-.switzerland-3 {
-
-    display:inline-block;
-    width:200px;
-    height:200px;
-    background:red;
-    border: gray 5px solid;
-    position: relative;
-    margin-top:135px;
-  
-
-}
-.switzerland-4 {
-
-    display:inline-block;
-    width:200px;
-    height:200px;
-    background:red;
-    border: gray 5px solid;
-    position: absolute;
-    margin-left:135px;
-    margin-top:135px;
-  
-
 }

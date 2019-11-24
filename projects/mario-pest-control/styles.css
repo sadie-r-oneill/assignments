@@ -1,0 +1,149 @@
+@font-face {
+
+    font-family: Mario;
+    src: url(./CHLORINP.TTF)
+
+}
+
+
+body {
+
+    background-image: url(https://i.pinimg.com/originals/4a/18/3c/4a183c1dcf0e901399b30ecb3e1612ae.png); 
+   
+
+}
+
+header{
+
+font-family: Mario;
+font-size: 150px;
+color: red;
+margin-bottom: 75px;
+display: flex;
+margin-left: 250px;
+
+}
+
+p{
+
+font-size: 30px;
+font-family: fantasy;
+color:black;
+margin-bottom: 75px;
+
+}
+
+.bob-div{
+
+font-size: 100px;
+font-family: mario;
+margin-left:75px;
+  
+
+}
+
+.bob{
+
+display: inline-block;
+height:300px;
+width: 300px;
+float:left;
+margin-bottom: 300px;
+
+}
+
+.bob-coin{
+
+font-family: Mario;
+font-size: 100px;
+color: gold;
+margin-bottom:250px;
+}
+
+.coin1 {
+
+height:200px;
+width: 200px;
+margin-left: 175px;
+
+
+}
+
+.goomba{
+display: inline-block;
+height:300px;
+width: 250px;
+float: left;
+margin-bottom: 200px;
+
+  
+}
+
+
+.goomba-div{
+
+font-size: 100px;
+font-family: mario;
+float: left;
+margin-bottom: 150px;
+}
+
+.goomba-coin {
+
+font-family: Mario;
+font-size: 100px;
+color: gold;
+margin-bottom: 100px;
+
+}
+
+
+
+.coin2{
+
+height:200px;
+width: 200px;
+margin-bottom: 150px;
+
+   
+}
+
+
+.cheep-div{
+
+
+font-size: 100px;
+font-family: mario;
+color:black;
+margin-bottom: 50px;
+float:top;
+
+
+
+}
+
+.cheep1{
+
+height:250px;
+width: 250px;
+float:bottom;
+margin-right: 400px;
+}
+
+.cheep-coin{
+
+font-family: Mario;
+font-size: 100px;
+color: gold;
+
+}
+
+.coin3{
+
+height:200px;
+width: 200px;
+    
+}
+
+
+
