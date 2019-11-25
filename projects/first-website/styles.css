@@ -1,0 +1,92 @@
+@media only screen and (max-width: 425px){
+
+    .nav {
+
+        font-family: monospace;
+        font-size: 15px;
+         
+    }
+    
+
+    .header {
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+       
+        }
+
+    .ghost{
+
+        max-width: 350px;
+        height: 230px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-bottom: 20px;
+
+        } 
+        .about {
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        margin-top: 10px;
+
+
+        }
+        .ghost-2{
+
+        max-width: 350px;
+        height: 230px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-bottom: 20px;
+    
+
+
+        }
+
+        .songs {
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        }
+
+    .ghost3{
+
+        width: 300px;
+        height: 260px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 25px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .bandcamp{
+
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        margin-top: 30px;
+        color: darkgrey;
+    }
+
+      
+
+        
+
+     
+
+        
+
+
+
+}
+
+
+
