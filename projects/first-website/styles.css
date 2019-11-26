@@ -1,9 +1,10 @@
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 600px){  
 
     .nav {
 
         font-family: monospace;
         font-size: 15px;
+        font-display: midnightblue;
          
     }
     
@@ -12,6 +13,8 @@
 
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
        
         }
 
@@ -25,15 +28,23 @@
         margin-bottom: 20px;
 
         } 
-        .about {
+
+        .body{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        .about{
 
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 40px;
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
 
         }
-        .ghost-2{
+
+        .ghost2{
 
         max-width: 350px;
         height: 230px;
@@ -50,7 +61,7 @@
 
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 40px;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 20px;
 
         }
@@ -76,17 +87,140 @@
         color: darkgrey;
     }
 
-      
+    .shows{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .ghost4 {
+
+    width: 350px;
+    height: 230px;
+    position: relative;
+    display: flex;
+    border: white 5px solid;
+    margin-bottom: 20px;
+
+    }
+
+
+}  
+
+@media only screen and (min-width:768px){
+    .nav{
+
+        font-family: monospace;
+        font-size: 25px;
+        margin-bottom: 50px;
 
         
+    } 
 
-     
+    .header{
 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
         
+    }
+
+    .ghost{
+
+        width: 650px;
+        height: 435px;
+        position: relative;
+        margin: auto;
+        padding: 45px;
+        border: white 5px solid;
+        margin-bottom: 20px;
+    }
+
+    .body{
+
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .about{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        margin-top: 15px;
+        margin-bottom: 40px;
 
 
+    }
+    .ghost2{
 
-}
+        max-width: 600px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-bottom: 50px;
+        margin-left: 65px;
+        
+    }   
 
+    .body{
 
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 30px;
+       
+    }
 
+    .songs{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .ghost3{
+
+        width: 600px;
+        height: 500px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 70px;
+        margin-bottom: 50px;
+    }
+
+    .bandcamp{
+
+        font-family: monospace;
+        font-size: 30px;
+        margin-left: 275px;
+        color: midnightblue;
+    }
+
+    .tour{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .ghost4 {
+
+        width: 600px;
+        height: 450px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    
+        }
+    }   

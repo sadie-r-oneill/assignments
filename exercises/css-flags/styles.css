@@ -1,47 +1,44 @@
 .france {
     display: inline-block;
+    
 
 }
 
 .france-1 {
     display: inline-block;
     width: 200px;
-    height: 400px;
+    height: 420px;
     background:blue;
     position: relative;
-    margin-left: 20px;
+   
 }
 
 .france-2{ 
     display: inline-block;
-
     width: 200px;
-    height: 400px;
+    height: 420px;
     background: white;
     position: relative;
    
-
 }
 
 .france-3{
     display: inline-block;
     width:200px;
-    height:400px;
+    height:420px;
     background:red;
     position: relative;
    
    
-    
-
 }
 
 .germany{
 
-    display:inline-block;
+    display: inline-block;
     padding-top: 100px;
-    
-
+    flex-direction: column;
 }
+
 .germany-1{
 
     display:inline-block;
@@ -59,7 +56,7 @@
     width: 600px;
     height: 125px;
     background:red;
-    position: relative;
+    margin-right: 500px;
    
 
 }
@@ -70,84 +67,90 @@
     width: 600px;
     height: 125px;
     background:yellow;
+    flex-direction: column;
 
 }
 
-.madagascar
-{
+.madagascar{
+
     display:inline-block;
-    padding-top:100px;
-    
+    border: lightblue 4px solid;
+    height: 435px;
+    width: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+   
 }
 
 .madagascar-1 {
 
     display:inline-block;
-    width:200px;
-    height:440px;
     background:white;
     position: relative;
-    border:lightskyblue 5px solid;
-
-
+    margin-bottom: 30px;
+   
+   
 }
 
 .madagascar-2{
 
-    display:inline-block;
+    display: inline-flexbox;
     width:475px;
-    height:225px;
+    height:218px;
     background:red;
     position:relative;
-    bottom:225px;
-    margin-right:95px;
+    float: right;
+    
+    
 }
 
 .madagascar-3{
 
-    display:inline-block;
+    display: inline-flexbox;
     width:475px;
-    height:225px;
+    height:218px;
     background:green;
-    position:relative;
-    bottom:230px;
-    margin-left: 214px;
-}
-
-.switzerland {
-
-    display:inline-block;
-    width:550px;
-    height:550px;
-    background:red;
-    border: gray 5px solid;
-  
-
-
-}
-.switzerland-1 {
-
-    display:inline-block;
-    width:75px;
-    height: 550px;
-    background:white;
-    border:gray 5px solid;
-    text-align: center;
-
-
-
-  
-
-}
-
-.switzerland-2 {
-
-    display:inline-block;
-    width:200px;
-    height:200px;
-    background
-    border: gray 5px solid;
     position: relative;
-    margin-left:340px;
-  
+    float: right;
+    margin-bottom: 5px;
+    
+   
+    
 }
+
+.switzerland{
+
+
+    display: inline-block;
+    height:500px;
+    width: 500px;
+    border: lightblue 5px solid;
+    margin-left: 75px;
+    background: red;
+}
+
+.switzerland-1{
+
+    height:250px;
+    width: 75px;
+    flex-direction: column;
+    margin-left: 215px;
+    margin-top: 140px;
+    background: white;
+
+}
+
+.switzerland-2{
+
+    height:75px;
+    width: 250px;
+    flex-direction: row;
+    background: white;
+    margin-left: 125px;
+    margin-bottom: 150px;
+    justify-content: center;
+    
+
+
+}
+

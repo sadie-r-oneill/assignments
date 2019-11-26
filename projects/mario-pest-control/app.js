@@ -7,10 +7,11 @@ var coinsOwed = document.getElementById("coinsOwed")
 
 submit.addEventListener("click", function(e){
     e.preventDefault()
-    var num1 = document.getElementById ("bobomb")
-    var num2 = document.getElementById ("goomba")
-    var num3 = document.getElementById ("cheepcheep")
-    var addResult = document.createElement("div")
+    var num1 = document.getElementById ("bobomb").value
+    var num2 = document.getElementById ("goomba").value
+    var num3 = document.getElementById ("cheepcheep").value
+    var addResult = document.createElement("div") 
+    addResult.style.backgroundColor = "red"
     coinsOwed.appendChild(addResult)
-    addResult.textContent = "Princess owes you " + sum(Number(num1), Number (num2), Number (num3)) + " for your work"
+    addResult.textContent = "Princess owes you " + (Number(num1)+ Number (num2) + Number (num3)) + " for your work"
 })
