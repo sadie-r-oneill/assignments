@@ -1,20 +1,42 @@
-@media only screen and (max-width: 600px){  
 
-    .nav {
+    
+    
+    
+    @media only screen and (max-width: 600px){  
+
+     
+    }
+
+    body{
+
+        background-image: url(https://backgroundcheckall.com/wp-content/uploads/2017/12/smoke-white-background.png);
+        background-size: cover;
+        
+    }
+
+
+    nav {
 
         font-family: monospace;
         font-size: 15px;
         font-display: midnightblue;
-         
+        margin-left: 22%;
+        position: relative;
+        
+        
     }
     
 
     .header {
 
+        display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 50px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        font-size: 40px;
+        margin-top: 35px;
+        margin-bottom: 10%;
+        margin-left: 18%;
+        border: 3px black dotted;
+        padding:5%;
        
         }
 
@@ -25,67 +47,145 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-bottom: 20px;
-
-        } 
-
-        .body{
-
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-        }
-        .about{
-
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 40px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 20%;
+        margin-top: 10%;
+       
 
 
-        }
+    } 
 
-        .ghost2{
+   .black{
 
         max-width: 350px;
         height: 230px;
         position: relative;
         display: flex;
         border: white 5px solid;
+        margin-bottom: 20%;
+        margin-top: 10%;
+
+
+   }
+
+    .scream{
+
+        max-width: 350px;
+        height: 230px;
+        position: relative;
+        margin-top: 10%;
+        display: flex;
+        border: white 5px solid;
         margin-bottom: 20px;
+        margin-top: 10%;
+    }
+
+    .cg{
+
+        max-width: 200px;
+        height: 200px;
+        position: relative;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        display: flex;
+        margin-left: 34%;
+    }
+
     
+    .about{
 
-
-        }
-
-        .songs {
-
+        display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 40px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-left: 13%;
+        border: 3px black dotted;
+        padding:5%;
 
-        }
+
+    }
+
+    .ghost2{
+
+        max-width:350px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    
+    }
+
+    p{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(53, 52, 52);
+        font-size: 15px;
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 35px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    
+
+    }
+
+    .ref{
+
+        font-family: monospace;
+        font-size: 10px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .songs {
+
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        margin-top: 35px;
+        margin-bottom: 40px;
+        margin-left: 30%;
+        border: 3px black dotted;
+        padding:5%;
+
+    }
 
     .ghost3{
 
         width: 300px;
-        height: 260px;
+        height: 270px;
         position: relative;
         display: flex;
         border: white 5px solid;
         margin-left: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        margin-top: 10%;
 
 
     }
 
     .bandcamp{
 
-        font-family: 'Courier New', Courier, monospace;
+        font-family: monospace;
         font-size: 20px;
-        margin-top: 30px;
-        color: darkgrey;
+        margin-left: 30%;
+        color: midnightblue;
     }
+
+    .tour{
+
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 60px;
+        border: 3px black dotted;
+        padding:5%;
+    }
+
+    
 
     .shows{
 
@@ -99,63 +199,177 @@
 
     .ghost4 {
 
-    width: 350px;
+    width: 325px;
     height: 230px;
     position: relative;
     display: flex;
     border: white 5px solid;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 4%;
 
     }
 
+    .feb-show{
 
-}  
+        font-family: monospace;
+        font-size: 15px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
 
-@media only screen and (min-width:768px){
-    .nav{
+    .feb{
+
+        font-family: monospace;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-bottom: 20%;
+    }
+
+    .milk-money{
+
+        font-family: monospace;
+        font-size: 15px;
+        margin-top: 10%;
+        margin-left: 5%;
+
+
+    }
+
+    .private{
+
+        font-family: monospace;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+
+    }
+
+    a:hover{
+
+    color: rgb(61, 27, 95);
+
+    }
+
+    .facebook{
+
+        width: 25px;
+        height:25px;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+
+    .instagram{
+
+        width: 55px;
+        height:30px;
+        margin-left: 18%;
+        margin-bottom: 4%;
+        
+    }
+
+    .twitter{
+
+        width: 35px;
+        height:35px;  
+        margin-left: 18%;
+        margin-bottom: 4%;
+
+    }
+    
+
+    @media only screen and (min-width:768px){
+
+    nav{
 
         font-family: monospace;
         font-size: 25px;
         margin-bottom: 50px;
+        margin-top: 5%;
+        margin-left: 29%;
+       
 
         
     } 
 
     .header{
 
+        display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 60px;
+        margin-left: 25%;
+        border: black 5px dotted;
+        padding: 5%;
+        margin-top: 30px;
+        margin-bottom: 10%;
         
     }
 
     .ghost{
 
-        width: 650px;
-        height: 435px;
+        max-width: 600px;
+        height: 400px;
         position: relative;
-        margin: auto;
-        padding: 45px;
+        display: flex;
         border: white 5px solid;
-        margin-bottom: 20px;
+        margin-left: 9%;
+        margin-bottom: 20%;
+        margin-top:20px;
+
+    } 
+
+    .black{
+
+        max-width: 600px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin-top: 10%;
+
+
+   }
+
+    .scream{
+
+        max-width: 600px;
+        height: 400px;
+        position: relative;
+        margin-top: 10%;
+        display: flex;
+        border: white 5px solid;
+        margin-bottom: 20%;
+        margin-top: 10%;
+        margin-left: 10%;
     }
 
-    .body{
+    .cg{
 
-        font-size: 25px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-top: 15px;
-        margin-bottom: 20px;
+        width: 350px;
+        height: 350px;
+        position: relative;
+        margin-top: 10%;
+        display: flex;
+        margin-top: 30%;
+        margin-left: 37%;
     }
 
     .about{
 
+        display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 60px;
-        margin-top: 15px;
-        margin-bottom: 40px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        margin-left: 22%;
+        border: black 5px dotted;
+        padding: 5%;
+        
 
+     }
 
-    }
     .ghost2{
 
         max-width: 600px;
@@ -163,10 +377,29 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-bottom: 50px;
+        margin-bottom: 10%;
         margin-left: 65px;
         
     }   
+
+    p{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(53, 52, 52);
+        font-size: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 35px;
+        margin-top: 3%;
+    }
+
+    .ref{
+
+        font-family: monospace;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
 
     .body{
 
@@ -178,22 +411,26 @@
 
     .songs{
 
+        display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 60px;
-        margin-top: 20px;
-        margin-bottom: 50px;
+        margin-left: 35%;
+        border: black 5px dotted;
+        padding: 5%;
+        margin-top: 30px;
+        margin-bottom: 60px;
 
     }
 
     .ghost3{
 
-        width: 600px;
+        width: 550px;
         height: 500px;
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-left: 70px;
-        margin-bottom: 50px;
+        margin-left: 98px;
+        margin-bottom: 20%;
     }
 
     .bandcamp{
@@ -206,10 +443,15 @@
 
     .tour{
 
+        display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 60px;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 50px;
+        margin-left: 25%;
+        border: black 5px dotted;
+        padding: 5%;
+        
     }
 
     .ghost4 {
@@ -221,6 +463,340 @@
         border: white 5px solid;
         margin-left: 70px;
         margin-bottom: 20px;
+    }
+
+    .feb-show{
+
+        font-family: monospace;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .feb{
+
+        font-family: monospace;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-bottom: 20%;
+    }
+
+    .milk-money{
+
+        font-family: monospace;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-left: 5%;
+
+
+    }
+
+    .private{
+
+        font-family: monospace;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+
+    }
+
+
+    a:hover{
+
+        color:rgb(230, 225, 225);
     
         }
-    }   
+    
+        .facebook{
+    
+            width: 50px;
+            height:55px;
+            margin-left: 15%;
+            margin-bottom: 4%;
+        }
+    
+        .instagram{
+    
+            width: 100px;
+            height:55px; 
+            margin-left: 20%;
+            margin-bottom: 4%;
+            
+        }
+    
+        .twitter{
+    
+            width: 65px;
+            height:60px;
+            margin-left: 18%;
+            margin-bottom: 4%;
+    
+        }
+    
+    
+    }
+
+    @media only screen and (min-width: 1024px){
+
+    nav{
+
+        display: flex;
+        justify-content: space-between;
+        font-family: monospace;
+        font-size: 15px;
+        margin-bottom: 50px;
+        margin-top: 3%;
+        margin-right: 33%;
+
+
+    }
+
+    .header{
+
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        margin-left: 32%;
+        border: black 5px dotted;
+        padding: 5%;
+        margin-top: 5%;
+        margin-bottom: 10%; 
+
+    }
+
+    .ghost{
+
+        max-width: 600px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 26%;
+        margin-bottom: 10%;
+        margin-top:20px;
+    }
+
+    .black{
+
+        max-width: 650px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 25%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+
+
+   }
+
+    .scream{
+
+        max-width: 650px;
+        height: 400px;
+        position: relative;
+        margin-top: 10%;
+        display: flex;
+        border: white 5px solid;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+    .cg{
+
+        width: 350px;
+        height: 350px;
+        position: relative;
+        margin-top: 10%;
+        display: flex;
+        margin-top: 30%;
+        margin-left: 40%;
+    }
+
+    .about{
+
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        margin-left: 30%;
+        border: black 5px dotted;
+        padding: 5%;
+        margin-top: 5%;
+        margin-bottom: 10%; 
+    }
+
+    .ghost2{
+
+
+        max-width: 650px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 25%;
+        margin-bottom: 10%;
+        margin-top:20px;
+
+    }
+
+    p{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(53, 52, 52);
+        font-size: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+        line-height: 35px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .ref{
+
+        font-family: monospace;
+        font-size: 15px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+    .songs{
+
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        margin-left: 35%;
+        border: black 5px dotted;
+        padding: 5%;
+        margin-top: 5%;
+        margin-bottom: 50px; 
+
+    }
+
+    .ghost3{
+
+        max-width: 460px;
+        height: 420px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left: 29%;
+        margin-bottom: 15%;
+        margin-top:10%;
+
+    }
+
+    .bandcamp{
+
+        font-family: monospace;
+        font-size: 25px;
+        margin-left: 40%;
+        margin-top: 20%;
+        color: midnightblue;
+    }
+
+    .tour{
+
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        margin-top: 5%;
+        margin-bottom: 50px;
+        margin-left: 32%;
+        border: black 5px dotted;
+        padding: 5%;
+
+    }
+
+    .ghost4{
+
+        width: 600px;
+        height: 450px;
+        position: relative;
+        display: flex;
+        border: white 5px solid;
+        margin-left:26%;
+        margin-bottom: 10%;
+    }
+
+    .feb-show{
+
+        font-family: monospace;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .feb{
+
+        font-family: monospace;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .milk-money{
+
+        font-family: monospace;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 5%;
+
+
+    }
+
+    .private{
+
+        font-family: monospace;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+
+    }
+
+    .facebook{
+    
+        width: 50px;
+        height:55px;
+        margin-left: 20%;
+        margin-bottom: 4%;
+    }
+
+    .instagram{
+
+        width: 100px;
+        height:55px; 
+        margin-left: 20%;
+        margin-bottom: 4%;
+        
+    }
+
+    .twitter{
+
+        width: 65px;
+        height:60px;
+        margin-left: 20%;
+        margin-bottom: 4%;
+
+    }
+    
+    }
+
+
+   
+    
+
+
+   
+        
+       
+       
+
+
+
+
+   
+    
+
+    
+
+     
