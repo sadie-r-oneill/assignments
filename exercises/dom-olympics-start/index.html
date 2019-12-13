@@ -7,34 +7,44 @@
     <link rel="stylesheet" href="style.css">
     <title>DOM Olympics</title>
 
-    <span class="header">Javascript made this!!</span>
+    <span id="header">Javascript made this!!</span>
 
     <span class="name">Sadie</span>
     <span class="java">wrote the JavaScript</span>
 </head>
 <body>
     <header id="header"></header>
+
     <label>Theme</label>
+
     <select id="theme-drop-down">
         <option value="theme-one">blue/brown</option>
         <option value="theme-two">red/black</option>
     </select>
+    
     <div id="main">
         <button id='clear-button'>clear</button>
-        <div class="messages">
-            <div class="div-1">
+
+            <div id = "messages">
+
+            <div id = "message1">
                 I have something serious to talk about
             </div>
-            <div class="div-2">
+
+            <div id = "message2">
                 I don't want to talk
             </div>
-            <div class="div-3">
+
+            <div id = "message3">
                 You have to, you're the police
             </div>
-            <div class="div-4">
+
+            <div id = "message4">
                 I'm just a simple farmer
             </div>
-        </div>
+            
+        </div>   
+       
         <form name="message">
             <input id="input" value="Thanks! Goodbye"/>
             <button>Send</button>

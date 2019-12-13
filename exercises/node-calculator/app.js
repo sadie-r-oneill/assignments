@@ -3,9 +3,9 @@ const readline = require("readline-sync")
 
 const {question,keyInSelect} = require("readline-sync")
 
-var num1 = parseInt(question("can you give me a number?"))
+var num1 = parseInt("can you give me a number?")
 
-var num2 = parseInt(question("can you give me another number?"))
+var num2 = parseInt("can you give me another number?")
 
 operation = ['add','subract','multiply','divide'] 
 

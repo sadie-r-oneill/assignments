@@ -47,7 +47,7 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
         margin-top: 10%;
        
 
@@ -61,7 +61,7 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
         margin-top: 10%;
 
 
@@ -75,8 +75,15 @@
         margin-top: 10%;
         display: flex;
         border: white 5px solid;
-        margin-bottom: 20px;
+        margin-bottom: 10%;
         margin-top: 10%;
+    }
+
+    iframe{
+
+    max-width: 350px;
+    height: 230px;
+    margin-left: 1%;
     }
 
     .cg{
@@ -151,26 +158,27 @@
 
     }
 
-    .ghost3{
+    .bandcamp2{
 
         width: 300px;
         height: 270px;
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-left: 25px;
-        margin-bottom: 40px;
-        margin-top: 10%;
+        margin-top: 20%;
+        margin-bottom: 10%;
 
 
     }
 
-    .bandcamp{
+    .gray{
 
         font-family: monospace;
-        font-size: 20px;
-        margin-left: 30%;
-        color: midnightblue;
+        font-size: 15px;
+        margin-left: 14%;
+        margin-top:20%;
+        color: rgb(103, 94, 94);
+
     }
 
     .tour{
@@ -345,6 +353,14 @@
         margin-left: 10%;
     }
 
+    iframe{
+
+        max-width: 600px;
+        height: 400px;
+        margin-left: 13%;
+
+        }
+
     .cg{
 
         width: 350px;
@@ -422,23 +438,26 @@
 
     }
 
-    .ghost3{
+    .bandcamp2{
 
-        width: 550px;
+        width: 600px;
         height: 500px;
-        position: relative;
-        display: flex;
         border: white 5px solid;
-        margin-left: 98px;
-        margin-bottom: 20%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-left: 24%;
+
+
     }
 
-    .bandcamp{
+    .gray{
 
         font-family: monospace;
-        font-size: 30px;
-        margin-left: 275px;
-        color: midnightblue;
+        font-size: 25px;
+        margin-left: 20%;
+        margin-top:20%;
+        color: rgb(103, 94, 94);
+
     }
 
     .tour{
@@ -546,7 +565,7 @@
         font-size: 15px;
         margin-bottom: 50px;
         margin-top: 3%;
-        margin-right: 33%;
+        margin-right: 30%;
 
 
     }
@@ -556,7 +575,7 @@
         display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 60px;
-        margin-left: 32%;
+        margin-left: 34%;
         border: black 5px dotted;
         padding: 5%;
         margin-top: 5%;
@@ -571,7 +590,7 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-left: 26%;
+        margin-left: 28%;
         margin-bottom: 10%;
         margin-top:20px;
     }
@@ -583,7 +602,7 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-left: 25%;
+        margin-left: 27%;
         margin-bottom: 10%;
         margin-top: 10%;
 
@@ -599,7 +618,12 @@
         display: flex;
         border: white 5px solid;
         margin-top: 10%;
-        margin-left: 25%;
+        margin-left: 27%;
+    }
+
+    iframe{
+
+        margin-left: 30%;
     }
 
     .cg{
@@ -610,7 +634,7 @@
         margin-top: 10%;
         display: flex;
         margin-top: 30%;
-        margin-left: 40%;
+        margin-left: 43%;
     }
 
     .about{
@@ -618,7 +642,7 @@
         display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 60px;
-        margin-left: 30%;
+        margin-left: 32%;
         border: black 5px dotted;
         padding: 5%;
         margin-top: 5%;
@@ -633,7 +657,7 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-left: 25%;
+        margin-left: 28%;
         margin-bottom: 10%;
         margin-top:20px;
 
@@ -664,7 +688,7 @@
         display: inline-block;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 60px;
-        margin-left: 35%;
+        margin-left: 39%;
         border: black 5px dotted;
         padding: 5%;
         margin-top: 5%;
@@ -672,26 +696,21 @@
 
     }
 
-    .ghost3{
+    .bandcamp2{
 
-        max-width: 460px;
-        height: 420px;
-        position: relative;
-        display: flex;
+        max-width: 650px;
+        height: 500px;
         border: white 5px solid;
-        margin-left: 29%;
-        margin-bottom: 15%;
-        margin-top:10%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        margin-left: 36%;
+
 
     }
 
-    .bandcamp{
+    .gray{
 
-        font-family: monospace;
-        font-size: 25px;
-        margin-left: 40%;
-        margin-top: 20%;
-        color: midnightblue;
+        margin-left: 35%;
     }
 
     .tour{
@@ -701,7 +720,7 @@
         font-size: 60px;
         margin-top: 5%;
         margin-bottom: 50px;
-        margin-left: 32%;
+        margin-left: 35%;
         border: black 5px dotted;
         padding: 5%;
 
@@ -714,7 +733,7 @@
         position: relative;
         display: flex;
         border: white 5px solid;
-        margin-left:26%;
+        margin-left:29%;
         margin-bottom: 10%;
     }
 
