@@ -1,0 +1,34 @@
+.container {
+    margin: 10%;
+    padding:5%;
+    border: black solid 10px;
+    background-color: rgb(144, 165, 165);
+}
+
+.myFriend {
+    display:flex;
+    color:rgb(78, 35, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    border: 10px dotted white;
+    padding:5%;
+    
+}
+.age {
+    color:rgb(78, 35, 91);
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10%;
+}
+
+.petName{
+    color: rgb(88, 74, 116);
+    font-size:30px;
+    font-family: sans-serif;
+}
+
+.breed {
+    color: rgb(121, 68, 101);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}

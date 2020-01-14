@@ -6,7 +6,7 @@ let gameOver = false;
 const player = {
     name: "",
     health: 100,
-    items: [],
+    items: [cd ..],
     attack: 20,
 }
 const enemies = [{
@@ -117,18 +117,18 @@ function playerAttacking (attackOption){
                     player.items.push(enemies[attackOption].itemDrop)
                     console.log("You picked up the " + enemies[attackOption].type + "\'s " + enemies[attackOption].itemDrop)
                     }
-        } else if (playerAction === 2){
-            console.log(player.health)
-        } else {
-            let escapeChance = Math.floor(Math.random() * 2)
-            if(escapeChance % 2 === 0){
-                console.log("You Escaped!")
-                walk()
-            } else  {
-                console.log("you did not escape")
+            } else if (playerAction === 2){
+                console.log(player.health)
+            } else {
+                let escapeChance = Math.floor(Math.random() * 2)
+                if(escapeChance % 2 === 0){
+                    console.log("You Escaped!")
+                    walk()
+                } else  {
+                    console.log("you did not escape")
+                }
             }
         }
-    }
     }
 // function gameComplete(attackOption){
 //     gameComplete = generateRandomChance(3)

@@ -1,0 +1,8 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    box-shadow: salmon 4px 4px;
+    margin: 10px;
+
+}

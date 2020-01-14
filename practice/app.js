@@ -49,11 +49,20 @@
     //The second parameter is a sentence
     //return a copy of the sentence with every instance of the word removed
 
-   //write out fat arrow function followed by paranthases that take 2 arguments
-
-   const removeWord = (word, sentence) => {
-       return 'everything but the word'
-   }
-
-   removeWord('hello', 'Hello World Hello World Hello World')
    //Output: 'World World World'
+
+
+  //let str = ('hello','Hello World Hello World Hello World')
+
+  const removeWord = (word,sentence) => {
+    const pattern = new RegExp(word,"g")
+    return sentence.replace(pattern," " )
+  
+  }
+  console.log(removeWord('Hello','Hello World Hello World Hello World'))
+    
+  
+     
+   
+   
+   

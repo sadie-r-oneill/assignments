@@ -1,25 +1,25 @@
 var one = document.one
 
-one.addEventListener('submit', function(e){
-    var formOne = one.addOne
+one.addEventListener('submit',function(e){
+    const formOne = one.addOne
 
     e.preventDefault ()
 
-    var numOne= Number(formOne.value)
+    const numOne= Number(formOne.value)
     
-    console.log( Number(formOne.value))
+    console.log(Number(formOne.value))
 
 })
 
-var two = document.two
+const two = document.two
 
 two.addEventListener('submit',function(e){
 
-    var formTwo = two.multiplyOne
+    const formTwo = two.multiplyOne
 
     e.preventDefault ()
 
-    var numTwo = Number (formTwo.value)
+      numTwo = Number (formTwo.value)
     console.log(Number)(formTwo.value)
 
 })

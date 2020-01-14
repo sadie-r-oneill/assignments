@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class = "travelTitle">Travel Form</h1>
+<form name = "travelForm">
+    <h3 class = "names">Name</h3>
+        <input type="text" name ="firstName" placeholder = "firstName">
+        <input type="text" name="lastName" placeholder = "lastName">
+    <h3 class = "age">Age</h3>    
+        <input type= "number" name="age" placeholder="age">
+    <h3 class = "gender">Gender</h3>    
+        Male: <input type ="radio" name="gender" value ="male">
+        Female: <input type ="radio" name="gender" value = "female">
+    <h3 class = "places">Travel Destinations</h3>
+    <select name ="places" id="">
+            <option value = "hawaii">Hawaii</option>
+            <option value = "costaRica">Costa Rica</option>
+            <option value = "bali">Bali</option>
+    </select>
+    <h3 class = "diet">Dietary Restrictions</h3>
+        Vegetarian: <input type="checkbox" value = "Vegetarian" name ="diet">
+        Kosher: <input type="checkbox" value = "Kosher" name ="diet">
+        Lactose Free:<input type="checkbox" value = "lactose" name ="diet">
+    <h3 class = "complete">Finish and Submit</h3>
+    <button>Submit</button>
+
+    </form>
+
+    
+
+    <script src = "app.js"></script>
+</body>
+</html>
