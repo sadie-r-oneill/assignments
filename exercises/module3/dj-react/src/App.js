@@ -28,7 +28,7 @@ class App extends React.Component {
             this.state.color[3]]
             })
         }else{
-            this.setState({
+            this.state({
                 color:["white","white",this.state.color[2],
             this.setState.color[3]]
             }

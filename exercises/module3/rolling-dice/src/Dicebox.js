@@ -4,6 +4,9 @@ class Dicebox extends React.Component {
 
     render(){
         const dice = {
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
             gridColumn: this.props.gridColumn,
             gridRow: this.props.gridRow,
             height: "150px",

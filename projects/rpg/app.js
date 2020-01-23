@@ -6,7 +6,7 @@ let gameOver = false;
 const player = {
     name: "",
     health: 100,
-    items: [cd ..],
+    items: [],
     attack: 20,
 }
 const enemies = [{
