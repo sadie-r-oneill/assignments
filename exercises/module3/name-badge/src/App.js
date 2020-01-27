@@ -51,52 +51,43 @@ class App extends React.Component {
    )
   }
   render(){
-    
+
     const badgeStyle = {
-      display: "flex",
-      height: "500px",
-      width: "600px",
-      border: "black solid 5px",
+      display: "flexbox",
+      height: "300px",
+      width: "680px",
+      border: "2px solid black",
+      borderRadius: "1%",
       marginLeft: "auto",
       marginRight: "auto",
-      borderRadius: "2%"
-
-    }
-    const buttonStyle = {
-      border: "black 2px solid",
-      marginLeft: "45%",
-      marginTop: "10%"
-
-    }
-    const formStyle = {
-      width: "600px"
-      
-
-    }
-    const inputStyle = {
+  }
+  const inputStyle = {
+      border: "2px solid black",
+      borderRadius: "1%",
       width: "250px",
-      justifyContent: "space evenly",
-      marginLeft: "5%",
-      marginTop: "5%",
-      border: "black 2px solid"
-      
-    }
-    const textareaStyle = {
-      width:"500px",
-      height:"100px",
-      marginTop: "10%",
-      marginLeft: "8%",
-      border: "black solid 2px",
-      borderRadius: "2%"
-    }
-    const aboutStyle = {
-      width:"500px",
-      height:"100px",
-      marginTop: "10%",
-      marginLeft: "8%",
-      border: "black solid 2px",
-      borderRadius: "2%"
-    }
+      marginLeft: "55px",
+      marginTop:"20px"
+  }
+  const aboutStyle ={
+      marginTop: "20px",
+      width: "561px",
+      height: "100px",
+      marginLeft: "55px",
+      border: "2px solid black",
+      borderRadius: "1%"
+  }
+  const formStyle = {
+      display: "flexbox",
+      alignItems: "center",
+      justifyContent: "space-between"
+  }
+  const buttonStyle = {
+      marginLeft: "43%",
+      marginTop: "10px",
+      width: "100px",
+      border: "2px solid black",
+      borderRadius: "1%"
+  }
     const mappedBadges = this.state.badges.map((badge, index) => {
       return(
         <BadgeMaker key = {index} {...badge} badgeStyle = {buttonStyle, formStyle, aboutStyle, inputStyle, badgeStyle}/>
@@ -105,7 +96,7 @@ class App extends React.Component {
     
     return(
       <div style = {badgeStyle}>
-        <form onChange = {this.handleSubmit} style = {formStyle}>
+        <form onSubmit = {this.handleSubmit} style = {formStyle}>
 
           <input 
           value = {this.state.firstName}
@@ -147,8 +138,8 @@ class App extends React.Component {
           <input 
           value = {this.state.phone}
           onChange = {this.handleChange}
-          type = "number"
-          name = "number"
+          type = "tel"
+          name = "phone"
           minLength = "9"
           style = {inputStyle}
           placeholder = "Phone number">
@@ -167,7 +158,7 @@ class App extends React.Component {
           value = {this.state.aboutMe}
           onChange = {this.handleChange}
           minLength = "3"
-          style = {textareaStyle} 
+          style = {aboutStyle} 
           placeholder = "Tell us about yourself" />
           <br />
 
