@@ -27,12 +27,7 @@ class App extends React.Component {
                 color: ["green", "green", this.state.color[2],
             this.state.color[3]]
             })
-        }else{
-            this.state({
-                color:["white","white",this.state.color[2],
-            this.setState.color[3]]
-            }
-            )}
+        }
     }
     changeBottomLeft(){
         if(this.state.color[2] === "white"){
