@@ -39,13 +39,13 @@ class App extends React.Component {
       } 
         return {
             badges: [...prevState.badges, newBadge],
-            firstName: "",
-            lastName: "",
-            email: "",
-            placeOfBirth: "",
-            phone: "",
-            favFood: "",
-            aboutMe: "",
+            firstName: "Hello World",
+            lastName: "Hello World",
+            email: "Hello World",
+            placeOfBirth: "Hello World",
+            phone: "Hello World",
+            favFood: "Hello World",
+            aboutMe: "Hello World",
         }
     }
    )
@@ -156,6 +156,7 @@ class App extends React.Component {
 
           <textarea 
           value = {this.state.aboutMe}
+          name = "aboutMe"
           onChange = {this.handleChange}
           minLength = "3"
           style = {aboutStyle} 

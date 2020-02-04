@@ -1,15 +1,15 @@
 import React from "react"
 
-function BadgeMaker(props) {
+function BadgeMaker({badgeStyle,firstName,lastName,email,placeOfBirth,phone,favFood,aboutMe}) {
     return (
-        <div style = {props.badgeStyle}>
-            <div>{props.firstName}</div>
-            <div>{props.lastName}</div>
-            <div>{props.email}</div>
-            <div>{props.placeOfBirth}</div>
-            <div>{props.phone}</div>
-            <div>{props.favFood}</div>
-            <div>{props.aboutMe}</div>
+        <div style = {badgeStyle}>
+            <div>{firstName}</div>
+            <div>{lastName}</div>
+            <div>{email}</div>
+            <div>{placeOfBirth}</div>
+            <div>{phone}</div>
+            <div>{favFood}</div>
+            <div>{aboutMe}</div>
         </div>
     )
 
