@@ -7,9 +7,9 @@ class App extends React.Component {
         this.state = {
             randomColor: ""
         }
-        this.handleClick = this.handleClick.bind(this)
+        
     }
-    handleClick(){
+    handleClick = () => {
         axios.get("http://www.colr.org/json/color/random")
         .then(response => response.data)
         .then(data => {
