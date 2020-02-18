@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+
