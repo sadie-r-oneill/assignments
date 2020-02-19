@@ -1,7 +1,5 @@
 import React from 'react';
-//import ThemeContextProvider from './themeContext'
 import Navbar from './Navbar'
-import Header from './Header'
 import Footer from './Footer'
 import Button from './Button'
 
