@@ -1,20 +1,14 @@
-import React from "react"
-import {ThemeContextConsumer} from "./themeContext"
+import React, {useContext} from "react"
+import {ThemeContext} from "./themeContext"
 
-function Footer(){
-        return (
-        <ThemeContextConsumer>
-            {(themeContext) => {
-            const {isLightTheme, light,dark} = themeContext
-            const theme = isLightTheme ? light : dark 
-            return (
-                <footer style = {{background: theme.bg, color: theme.color}}>Here is a Footer</footer>
-            )
-            }
-            }
+function Footer(props){
+    const {theme} = useContext(ThemeContext)
+    return(
+        <footer className = {`${theme}-theme`}>
+            <h2>{theme === "light" ? "Light" : "Dark"}</h2>
+        </footer>
+    )
+}        
 
-        </ThemeContextConsumer>
-        )
-}
    
 export default Footer

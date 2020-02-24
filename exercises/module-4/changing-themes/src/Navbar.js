@@ -1,23 +1,20 @@
-import React from "react"
-import {ThemeContextConsumer} from "./themeContext"
+import React, {useContext}from "react"
+import {ThemeContext} from "./themeContext"
 
-function Navbar(){
+function Navbar(props){
+    const {theme} = useContext(ThemeContext)
     return(
-         <ThemeContextConsumer>
-            {(themeContext) => {
-            const {isLightTheme, light,dark} = themeContext
-            const theme = isLightTheme ? light : dark 
-            return(
-                <main style ={{background: theme.bg, color: theme.color}}>
-                    <h2>HOME</h2>
-                    <h2>ABOUT</h2>
-                    <h2>CONTACT</h2>
-                    <h2>Click this button to change themes!</h2>
-                </main>
-            )}
-            }
+         <main className = {`${theme}-theme`}>
+            <h2>HOME</h2>
+            <h2>ABOUT</h2>
+            <h2>CONTACT</h2>
+            <h2>{}</h2>
+         </main>
          
-        </ThemeContextConsumer>
+           
+            
+         
+       
     )
 }
 

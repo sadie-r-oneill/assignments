@@ -1,21 +1,17 @@
-import React, {Component} from "react"
-import {ThemeContextConsumer} from "./themeContext"
+import React, {useContext} from "react"
+import {ThemeContext} from "./themeContext"
 
-class Button extends Component {
+function Button(props){
+    const {theme,toggleTheme} = useContext(ThemeContext)
 
-    render(){
-        return (
-        <ThemeContextConsumer>
-            {
-                ({isLightTheme, light, dark, toggleTheme}) => 
-                    <button onClick = {toggleTheme} 
-                    style = {{background: isLightTheme ? light.bg : dark.bg, 
-                    color: isLightTheme ? light.color : dark.color}}>Switch Theme!</button>
-            }
-        </ThemeContextConsumer>
-        )
-    }
-        
+   return(
+       <button 
+       onClick = {toggleTheme}
+       className = {`${theme}-theme`}
+       >
+           Switch Theme
+
+       </button>
+   )
 }
-
-export default Button
+   export default Button
