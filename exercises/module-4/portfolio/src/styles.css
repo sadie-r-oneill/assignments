@@ -6,34 +6,118 @@
         src: url(PortlandLdo-L394.ttf)
     
     }
+    @font-face {
+        font-family: Portland-Italic;
+        src: url(PortlandLdoItalic-owPz.ttf)
+    }
+    
     body {
-        background-color: rgb(217, 217, 238);
-        background-image: url(https://images.unsplash.com/photo-1566146991394-b09a95e80d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
-        background-size: 1250px;
+        background-color: rgb(238, 191, 191);
+        
+       
     }    
     .nav {
-        color: rgb(45, 96, 96);
+        display:flex;
+        justify-content: space-evenly;
         font-size: 15px;
-        justify-content:space-evenly;
+        
+    }
+    a{
+        color: rgb(244, 244, 244);
         font-family: Portland;
-       
+        font-size: 18px;
+        margin-top: 10px;
+        
+        
+    
+    }
+    .contact {
+        background-image: url(https://img.freepik.com/free-vector/town-buildings-cartoon_18591-16158.jpg?size=626&ext=jpg);
+        width:420px;
+        height:400px;
     }
 
     .myName {
-        color: rgb(40, 52, 52);
-        font-size: 30px;
+        color:rgb(88, 82, 89);
+        font-size: 40px;
         font-family: Portland;
+        margin-left: 25%;
+        font-style: italic;
     }
     .myEmail {
-        color:  rgb(40, 52, 52);
-        font-size: 15px;
+        color:  rgb(124, 97, 187);
+        font-size: 20px;
         font-family: Portland;
+        margin-left: 10px;
     }
     .phone {
-        color:  rgb(40, 52, 52);
-        font-size: 15px;
+        color: rgb(124, 97, 187);
+        font-size: 20px;
         font-family: Portland;
 }
 
-
 }
+
+@media only screen and (min-width:600px){
+    body {
+        background-color:rgb(238, 191, 191);
+        background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        background-size: cover;
+        
+    } 
+.nav {
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    /* background-color: whitesmoke; */
+    height:60px;
+   
+}
+a{
+    color: rgb(247, 247, 247);
+    font-family: monospace;
+    font-size: 20px;
+    margin-top:10px;
+    text-shadow: 1px 1px #325950;
+   
+  
+}
+.contact {
+    /* background-image: url(https://img.freepik.com/free-vector/town-buildings-cartoon_18591-16158.jpg?size=626&ext=jpg); */
+    background-size: 1000px;
+    height:800px;
+   
+} 
+
+.myName {
+    font-size: 100px;
+    margin-left: 10%;
+    margin-bottom:10%;
+    font-family: monospace;
+    color: whitesmoke;
+    text-shadow: 4px 4px #325950;
+    
+}
+
+.myEmail {
+    margin-left:26%;
+    color:  rgba(28, 24, 23, 0.598);
+    font-size: 20px;
+    font-family: monospace;
+    position: relative;
+    bottom:370px;
+   
+   
+}
+.phone {
+    margin-left:26%;
+    color:  rgba(28, 24, 23, 0.598);
+    font-size: 18px;
+    font-family: monospace;
+    position: relative;
+    bottom:370px;
+    
+}
+}
+
+

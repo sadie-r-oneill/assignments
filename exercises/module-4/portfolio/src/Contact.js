@@ -3,10 +3,14 @@ import React from "react"
 
 function Contact(props){
     return (
-        <div>
+        <div className = "contact">
+            <nav className = "nav">
+                <a href = "">Resume</a>
+                <a href = "https://github.com/sadie-r-oneill">GitHub</a>
+                <a href = "https://www.linkedin.com/in/sadie-oneill/">LinkedIn</a>
+            </nav>
             <h1 className = "myName">Sadie O'Neill</h1>
-            <h2 className = "myEmail">sadie.r.oneill@gmail.com</h2>
-            <h1 className = "phone">818-438-9074</h1>
+
             
         </div>
     )
