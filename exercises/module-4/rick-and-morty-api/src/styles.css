@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: midnightblue;
+}
+
+@font-face {
+    font-family: ricknmorty;
+    src: url(./fonts/MISFITS_.TTF);
+    
+}
+
+

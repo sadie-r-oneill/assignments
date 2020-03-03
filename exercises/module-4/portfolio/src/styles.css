@@ -8,7 +8,8 @@
     }
     @font-face {
         font-family: Portland-Italic;
-        src: url(PortlandLdoItalic-owPz.ttf)
+        src: url(PortlandLdoItalic-owPz.ttf);
+        
     }
 
     body{
