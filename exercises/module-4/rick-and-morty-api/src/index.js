@@ -1,10 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import RickAndMortyContext from './Context/RickAndMortyContext'
 import App from './App'
-import styled from 'styled-components'
-import styles from './styles.css'
+import {BrowserRouter} from "react-router-dom"
+import './styles.css'
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter>
+        <RickAndMortyContext>
+            <App />
+        </RickAndMortyContext>
+    </BrowserRouter>, document.getElementById('root'));
 
 

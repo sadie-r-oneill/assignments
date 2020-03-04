@@ -8,7 +8,11 @@
 @font-face {
     font-family: ricknmorty;
     src: url(./fonts/MISFITS_.TTF);
-    
+}
+
+a{
+    color: rgb(230, 238, 68);
+    text-shadow: 2px 2px rgb(228, 56, 13)
 }
 
 

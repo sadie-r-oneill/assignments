@@ -5,11 +5,11 @@ import styles from "./styles.css"
 const StyledHeader = styled.h1`
     display:flex;
     justify-content:center;
-    font-size:100px;
+    font-size:120px;
     margin:5%;
     font-family: ricknmorty;
-    color: rgb(65, 155, 146);
-    text-shadow: 6px 6px  rgb(7, 244, 82);
+    color:rgb(65, 135, 128);
+    text-shadow: 8px 8px  rgb(7, 244, 82);
     
 
 `
