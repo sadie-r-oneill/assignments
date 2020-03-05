@@ -20,18 +20,11 @@ export default function Char(){
         getCharacter()
     }   
 
-    // const getCharacter = arr => {
-    //     for(let i = 0; i <arr.length; i ++){
-    //         const h1 = document.createElement("h1")
-    //         h1.textContent = arr[i].name
-    //     }
-    // }
     return(
         <div>
             <form className = "newForm" onSubmit = {handleSubmit}>
                 <input type = "radio" value = "character" name ="character"></input>
-                {/* <input type = "radio" value = "location" name ="location"></input>
-                <input type = "radio" value = "episode" name ="episode"></input> */}
+                <input type = "text"></input>
                 <button>SUBMIT</button>
             </form>
             <Photo />

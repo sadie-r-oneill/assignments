@@ -17,7 +17,7 @@ export default function Navbar(){
             <StyledNav>
                 <a href = "">HOME</a>
                 <a href = "">CHARACTERS</a>
-                <a href = "">MISC</a>
+                <a href = "">EPISODES</a>
             </StyledNav>   
                
         </nav>
