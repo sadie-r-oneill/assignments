@@ -1,6 +1,5 @@
-import React, {useContext} from "react"
+import React, {useContext, useEffect, useState} from "react"
 import styled from "styled-components"
-import {Link, Switch, Route} from "react-router-dom"
 import {RickAndMortyContext} from "./Context/RickAndMortyContext"
 
 const Photo = styled.div`
@@ -11,24 +10,50 @@ const Photo = styled.div`
     width: 800px;
     margin-left:20%;
     border-radius:5%;
+    box-shadow: 10px 10px yellow;
 
 `
 export default function Char(){
-    const {getCharacter} = useContext(RickAndMortyContext)
+    const {getCharacters, characters} = useContext(RickAndMortyContext)
+    const [inputs, setInputs] = useState({
+        character: '',
+        episode: ''
+    })
+
+    useEffect(()=> {
+        getCharacters()
+    },[])
+   
     const handleSubmit = (e) => {
         e.preventDefault()
-        getCharacter()
+
     }   
+
+    const handleChange = (e) => {
+        const{name,value} = e.target
+        setInputs (prevState => {
+            return (
+                
+                {...prevState, [name]:value}
+            )
+        })
+    }
+    
 
     return(
         <div>
-            <form className = "newForm" onSubmit = {handleSubmit}>
-                <input type = "radio" value = "character" name ="character"></input>
-                <input type = "text"></input>
-                <button>SUBMIT</button>
-            </form>
             <Photo />
+            <form className = "newForm" onSubmit = {handleSubmit}>
+                <h1 className = "charSearch">Search characters</h1>
+                {/* connect handleChange to your inputs */}
+                <input onChange ={handleChange} className = "input1" placeholder = "search character" type = "text" name = "character" value = {inputs.character}></input>
+                <button className = "button1">See Character!</button>
+                <h1 className = "episodeSearch">Search Episodes</h1>
+                <input onChange ={handleChange} className = "input2" placeholder = "search episode" type = "text" name = "episode" value = {inputs.episode} ></input>
+                <button className = "button2">See Episode!</button>
+            </form>
         </div>
+           
     )
             
     

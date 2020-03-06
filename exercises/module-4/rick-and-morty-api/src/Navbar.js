@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import {Link} from "react-router-dom"
 
 const StyledNav = styled.nav`
     display: flex;
@@ -15,9 +16,9 @@ export default function Navbar(){
     return(
         <nav>
             <StyledNav>
-                <a href = "">HOME</a>
-                <a href = "">CHARACTERS</a>
-                <a href = "">EPISODES</a>
+                <Link to= "/">HOME</Link>
+                <Link to= "/Characterlist">CHARACTERS</Link>
+                <Link to= "/Episodes">EPISODES</Link>
             </StyledNav>   
                
         </nav>

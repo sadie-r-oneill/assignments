@@ -3,6 +3,11 @@
     padding:0;
     box-sizing: border-box;
     background-color: midnightblue;
+    
+}
+body{
+    background-image: url(https://wallup.net/wp-content/uploads/2019/09/70777-stars-blue-nebula.jpg);
+    background-size: cover;
 }
 
 @font-face {
@@ -12,7 +17,60 @@
 
 a{
     color: rgb(230, 238, 68);
-    text-shadow: 2px 2px rgb(228, 56, 13)
+    text-shadow: 2px 2px rgb(228, 56, 13);
+    
 }
+
+
+.charSearch{
+    display:flex;
+    margin-top:3%;
+    margin-left:20%;
+    color:whitesmoke;
+    font-family:ricknmorty;
+    
+
+}
+.input1 {
+    height: 40px;
+    width:150px;
+    background-color: white;
+    margin-left: 20%;
+    border: rgb(141, 230, 57) 4px solid;
+}
+    
+.episodeSearch{
+    display:flex;
+    margin-top:3%;
+    margin-left:20%;
+    color:whitesmoke;
+    font-family:ricknmorty;
+}
+.input2{
+    height: 40px;
+    width:150px;
+    background-color: white;
+    margin-left: 20%;
+    border: rgb(141, 230, 57) 4px solid;
+}
+   
+
+.button1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 238);
+    margin-left:20%;
+    margin-top:1%;
+    padding:0.5%;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 238);
+    margin-left:20%;
+    margin-top:1%;
+    padding:0.5%;
+}
+
 
 

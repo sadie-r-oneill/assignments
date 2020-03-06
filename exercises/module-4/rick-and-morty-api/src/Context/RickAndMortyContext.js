@@ -1,42 +1,50 @@
 import React, {useState} from "react"
-import CharacterDisplay from "../CharacterDisplay"
 export const RickAndMortyContext = React.createContext()
 
 
 export default function RicknMortyProvider(props){
-    const [RickAndMortyState, setRickAndMortyState] = useState({
-        characters:[],
-        // id:"",
-        // name: "",
-        // status: "",
-        // species: "",
-        // type: "",
-        // gender: "",
-    })
+    const [characters, setCharacters] = useState([])
+    const [name, setName] = useState([0])
 
-
-
-function getCharacter(){
-    fetch("https://rickandmortyapi.com/api/character") 
-    .then(response => response.json())
-    .then(response => {
-        setRickAndMortyState(prevState => {
-            return {characters:[...prevState.characters, response.results]}
+        //get all characters
+    function getCharacters(){
+        fetch("https://rickandmortyapi.com/api/character/") 
+        .then(response => response.json())
+        .then(response => {
+            setCharacters(prevState => {
+                return [...prevState, ...response.results]
+            })
         })
-    })
-    .catch(err => console.log(err))
-}
-
+        .catch(err => console.log(err))
+    }
+        //get specific character
+        
+    function getChar(){
+        fetch("https://rickandmortyapi.com/api/character/")
+        .then(response => response.json())
+        .then(response => {
+            setName(prevState => {
+                return [...prevState, ...response.results]
+                
+            })
+            
+        })
+    }
     return(
-    <RickAndMortyContext.Provider value = {{...RickAndMortyState, getCharacter}}>
-        {props.children}
-        {RickAndMortyState.characters.map(char => <CharacterDisplay characterData={char}/>)}
-
-    </RickAndMortyContext.Provider>
-
-)
-
+        <RickAndMortyContext.Provider value = {{...characters, getCharacters}}>
+            {props.children}
+        </RickAndMortyContext.Provider>
+    )
 }
+  
+    
+
+
+
+
+
+
+
             
     
    

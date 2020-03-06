@@ -1,11 +1,17 @@
-import React, {useContext} from 'react'
-import {RickAndMortyContext} from './Context/RickAndMortyContext'
+import React from 'react'
+
 export default function CharacterDisplay(props){
-    const { name, status, species, type, gender } = props.characterData
-    
+    const { name, status, species, type, gender, image } = props
+    console.log(name)
     return (
         <div>
-            <h1>{name}</h1>
+            <h2>Name : {name}</h2>
+            <h2>Status : {status}</h2>
+            <h2>Species : {species}</h2>
+            <h2>Type : {type}</h2>
+            <h2>Gender : {gender}</h2>
+            {/* <img src = "">{image}</img> */}
         </div>
     )
+    
 }
