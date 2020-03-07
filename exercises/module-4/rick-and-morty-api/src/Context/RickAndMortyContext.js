@@ -3,20 +3,24 @@ export const RickAndMortyContext = React.createContext()
 
 
 export default function RicknMortyProvider(props){
-    const [characters, setCharacters] = useState([])
+    const [charactersState, setCharactersState] = useState({
+        listOfCharacters: {}
+    })
+
     const [name, setName] = useState([0])
 
         //get all characters
+
     function getCharacters(){
         fetch("https://rickandmortyapi.com/api/character/") 
         .then(response => response.json())
         .then(response => {
-            setCharacters(prevState => {
-                return [...prevState, ...response.results]
-            })
+            setCharactersState(prev => ({...prev, listOfCharacters: response.results}))
         })
         .catch(err => console.log(err))
     }
+    
+    
         //get specific character
 
     function getChar(){
@@ -27,15 +31,15 @@ export default function RicknMortyProvider(props){
                 return [...prevState, ...response.results]
             })
         })
-                
-            
     }
     return(
-        <RickAndMortyContext.Provider value = {{...characters, getCharacters}}>
+        <RickAndMortyContext.Provider value = {{...charactersState, getCharacters}}>
             {props.children}
         </RickAndMortyContext.Provider>
     )
 }
+                
+            
   
     
 

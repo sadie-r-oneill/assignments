@@ -18,7 +18,7 @@ export default function Char(){
     const [inputs, setInputs] = useState({
         characters: '',
         episode: ''
-    })
+    })-
 
     useEffect(()=> {
         getCharacters()
@@ -33,11 +33,11 @@ export default function Char(){
         const{name,value} = e.target
         setInputs(prevState => {
             return (
-                
                 {...prevState, [name]:value}
-            )
-        })
-    }
+                )
+            })
+        }
+                
     
 
     return(
