@@ -16,7 +16,7 @@ const Photo = styled.div`
 export default function Char(){
     const {getCharacters, characters} = useContext(RickAndMortyContext)
     const [inputs, setInputs] = useState({
-        character: '',
+        characters: '',
         episode: ''
     })
 
@@ -31,7 +31,7 @@ export default function Char(){
 
     const handleChange = (e) => {
         const{name,value} = e.target
-        setInputs (prevState => {
+        setInputs(prevState => {
             return (
                 
                 {...prevState, [name]:value}
@@ -46,7 +46,7 @@ export default function Char(){
             <form className = "newForm" onSubmit = {handleSubmit}>
                 <h1 className = "charSearch">Search characters</h1>
                 {/* connect handleChange to your inputs */}
-                <input onChange ={handleChange} className = "input1" placeholder = "search character" type = "text" name = "character" value = {inputs.character}></input>
+                <input onChange ={handleChange} className = "input1" placeholder = "search character" type = "text" name = "character" value = {inputs.characters}></input>
                 <button className = "button1">See Character!</button>
                 <h1 className = "episodeSearch">Search Episodes</h1>
                 <input onChange ={handleChange} className = "input2" placeholder = "search episode" type = "text" name = "episode" value = {inputs.episode} ></input>

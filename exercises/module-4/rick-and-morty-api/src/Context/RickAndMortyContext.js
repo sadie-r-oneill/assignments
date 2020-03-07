@@ -18,17 +18,17 @@ export default function RicknMortyProvider(props){
         .catch(err => console.log(err))
     }
         //get specific character
-        
+
     function getChar(){
         fetch("https://rickandmortyapi.com/api/character/")
         .then(response => response.json())
         .then(response => {
             setName(prevState => {
                 return [...prevState, ...response.results]
-                
             })
-            
         })
+                
+            
     }
     return(
         <RickAndMortyContext.Provider value = {{...characters, getCharacters}}>

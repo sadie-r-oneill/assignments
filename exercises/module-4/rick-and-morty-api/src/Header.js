@@ -16,6 +16,6 @@ const StyledHeader = styled.h1`
 
 export default function Header(){
     return(
-        <StyledHeader>Rick and Morty</StyledHeader>
+        <StyledHeader>Rick and Morty!</StyledHeader>
     )
 }

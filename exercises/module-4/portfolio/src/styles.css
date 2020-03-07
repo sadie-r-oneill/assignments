@@ -38,15 +38,13 @@
     }
 
     .myName {
-        display:flex;
-        justify-content: center;
         font-size: 20px;
         font-family: monospace;
-        color: whitesmoke;
+        color: rgb(52, 49, 49);
+        text-shadow: 2px 2px #d7cfcf;
         position: relative;
-       text-shadow: 3px 3px #325950;
-        margin-left: 5%;
-        
+        margin-left: 4%;
+        margin-bottom:1%;
     }
     
     .developer{
@@ -121,10 +119,10 @@
         height: 400px;
     }
     .myName {
-        font-size: 30px;
+        font-size: 35px;
         font-family: monospace;
-        color: whitesmoke;
-        text-shadow: 2px 2px #325950;
+        color: rgb(52, 49, 49);
+        text-shadow: 2px 2px #d7cfcf;
         margin-left: 5%;
         
     }
@@ -173,8 +171,8 @@
 
 @media only screen and (min-width:1000px){
 body {
-    background-color:rgb(238, 191, 191);
-    background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-color:rgb(227, 227, 227);
+    /* background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
     background-size: cover;
         
     } 
@@ -189,8 +187,8 @@ body {
 a{
     color: rgb(247, 247, 247);
     font-family: monospace;
-    font-size: 20px;
-    margin-top:10px;
+    font-size: 25px;
+    margin-top:2%;
     text-shadow: 1px 1px #325950;
    
   
@@ -198,17 +196,68 @@ a{
 .contact {
     
     width: 100%;
-    height:600px;
+    height:800px;
    
 } 
+.gitImg{
+    display: flex;
+    height:70px;
+    width:70px;
+    margin-top: 460%;
+    margin-left:-515%;
+    box-shadow: 2px 2px darkgrey;
+}
+.linkedIn{
+    display: flex;
+    height:72px;
+    width:70px;
+    margin-top: 460%;
+    margin-left:-749%;
+    box-shadow: 2px 2px darkgrey;
+
+}
+.gmailImg{
+    display: flex;
+    height:65px;
+    width:63px;
+    margin-left: 53.5%;
+    margin-top:11.5%;
+    box-shadow: 2px 2px darkgrey;
+   
+}
+.phoneImg{
+    display: flex;
+    height:72px;
+    width:77px;
+    margin-left: 38%;
+    margin-top:7%;
+    box-shadow: 2px 2px darkgrey;
+}
+.resumeImg{
+    display: flex;
+    height:72px;
+    width:76px;
+    margin-left: 30%;
+    margin-top:652%;
+    box-shadow: 2px 2px darkgrey;
+   
+}
+.folderImg{
+    display: flex;
+    height:68px;
+    width:73px;
+    margin-left: 53%;
+    margin-top:-4.6%;
+    box-shadow: 2px 2px darkgrey;
+}
 
 .myName {
-    font-size: 90px;
-    margin-left: 10%;
+    font-size: 70px;
+    margin-left: 7%;
     margin-bottom:10%;
-    font-family: monospace;
-    color: whitesmoke;
-    text-shadow: 4px 4px #325950;
+    font-family:'Libre Baskerville', serif;
+    color: rgb(27, 29, 48);
+    text-shadow: 3px 3px #d7cfcf;
     
 }
 
@@ -216,9 +265,8 @@ a{
     margin-left:25%;
     color:   rgba(23, 21, 20, 0.666);
     font-size:18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
-    bottom:230px;
     margin-top:3%;
     margin-bottom:2%;
    
@@ -228,9 +276,8 @@ a{
     margin-left:25%;
     color:  rgba(28, 24, 23, 0.598);
     font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
-    bottom:230px;
     margin-bottom:1%;
    
    
@@ -239,9 +286,9 @@ a{
     margin-left:25%;
     color:  rgba(28, 24, 23, 0.598);
     font-size: 16px;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     position: relative;
-    bottom:220px;
+    /* bottom:220px; */
     margin-bottom: 1%;
     
 }
@@ -250,18 +297,18 @@ a{
     margin-left:25%;
     color:  rgba(28, 24, 23, 0.598);
     font-size: 16px;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     position: relative;
-    bottom:215px;
+    /* bottom:215px; */
     margin-bottom:1.5%;
 }
 .bio {
     margin-left:25%;
     color:rgba(28, 24, 23, 0.598);
     font-size: 16px;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
     position: relative;
-    bottom:215px;
+    /* bottom:215px; */
     
 }
 }

@@ -6,7 +6,7 @@ export default function CharacterList(){
     const value = useContext(RickAndMortyContext)
     return(
         <div>
-            {value.characters.map(char => <CharacterDisplay characterData={char}/>)}
+            {value.characters.map(char => <CharacterDisplay CharacterData={char}/>)}
         </div>
     )
 }
