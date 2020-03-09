@@ -15,7 +15,7 @@ export default function App(){
       <Switch>
         <Route exact path ="/" component = {Main}/>
         <Route path = "/Characterlist" component = {CharacterList}/>
-        <Route path = ""/>
+        <Route path />
       </Switch>
       <Footer />
     </div>

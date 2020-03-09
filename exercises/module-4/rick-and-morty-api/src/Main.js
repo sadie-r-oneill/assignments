@@ -18,16 +18,13 @@ export default function Char(){
     const [inputs, setInputs] = useState({
         characters: '',
         episode: ''
-    })-
+    })
 
-    useEffect(()=> {
-        getCharacters()
-    },[])
-   
+    console.log(1111, characters)
     const handleSubmit = (e) => {
         e.preventDefault()
-
     }   
+    
 
     const handleChange = (e) => {
         const{name,value} = e.target
@@ -37,27 +34,40 @@ export default function Char(){
                 )
             })
         }
-                
-    
-
     return(
         <div>
             <Photo />
-            <form className = "newForm" onSubmit = {handleSubmit}>
-                <h1 className = "charSearch">Search characters</h1>
-                {/* connect handleChange to your inputs */}
-                <input onChange ={handleChange} className = "input1" placeholder = "search character" type = "text" name = "character" value = {inputs.characters}></input>
-                <button className = "button1">See Character!</button>
-                <h1 className = "episodeSearch">Search Episodes</h1>
-                <input onChange ={handleChange} className = "input2" placeholder = "search episode" type = "text" name = "episode" value = {inputs.episode} ></input>
-                <button className = "button2">See Episode!</button>
-            </form>
+                <form className = "newForm" onSubmit = {handleSubmit}>
+                    <h1 className = "charSearch">Search characters</h1>
+                    {/* connect handleChange to your inputs */}
+                    <input onChange = {handleChange} 
+                        className = "input1" 
+                        placeholder = "search character" 
+                        type = "text" 
+                        name = "characters" 
+                        value = {inputs.characters}>
+                    </input>
+                    <button className = "button1">See Character!</button>
+                    <h1 className = "episodeSearch">Search Episodes</h1>
+                    <input onChange ={handleChange} 
+                        className = "input2" 
+                        placeholder = "search episode" 
+                        type = "text" 
+                        name = "episode" 
+                        value = {inputs.episode}>
+                    </input>
+                    <button className = "button2">See Episode!</button>
+                </form>
         </div>
-           
     )
-            
-    
 }
+                        
+
+               
+                
+                
+    
+
 
    
 
