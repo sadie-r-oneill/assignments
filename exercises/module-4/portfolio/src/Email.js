@@ -1,6 +1,6 @@
 import React from "react"
 
-function Email(){
+export default function Email(){
     return(
         <div>
             <h1 className = "developer">Web Developer based out of Salt Lake City, UT</h1>
@@ -18,4 +18,3 @@ function Email(){
     )
 }
 
-export default Email
