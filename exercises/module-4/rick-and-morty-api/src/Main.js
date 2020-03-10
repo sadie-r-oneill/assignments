@@ -1,6 +1,7 @@
-import React, {useContext, useEffect, useState} from "react"
+import React, {useContext, useState} from "react"
 import styled from "styled-components"
 import {RickAndMortyContext} from "./Context/RickAndMortyContext"
+import {Link, Route} from "react-router-dom"
 
 const Photo = styled.div`
     display:flex;
@@ -14,53 +15,36 @@ const Photo = styled.div`
 
 `
 export default function Char(){
-    const {getCharacters, characters} = useContext(RickAndMortyContext)
-    const [inputs, setInputs] = useState({
-        characters: '',
-        episode: ''
-    })
-
-    console.log(1111, characters)
-    const handleSubmit = (e) => {
-        e.preventDefault()
-    }   
+    const {getChar} = useContext(RickAndMortyContext)
+    const [inputs, setInputs] = useState("")  
     
-
     const handleChange = (e) => {
-        const{name,value} = e.target
-        setInputs(prevState => {
-            return (
-                {...prevState, [name]:value}
-                )
-            })
-        }
+        const {value} = e.target
+        setInputs(value)
+    }
+
     return(
         <div>
             <Photo />
-                <form className = "newForm" onSubmit = {handleSubmit}>
+                <form className = "newForm">
                     <h1 className = "charSearch">Search characters</h1>
-                    {/* connect handleChange to your inputs */}
                     <input onChange = {handleChange} 
                         className = "input1" 
                         placeholder = "search character" 
                         type = "text" 
                         name = "characters" 
-                        value = {inputs.characters}>
+                        value = {inputs}>
                     </input>
-                    <button className = "button1">See Character!</button>
-                    <h1 className = "episodeSearch">Search Episodes</h1>
-                    <input onChange ={handleChange} 
-                        className = "input2" 
-                        placeholder = "search episode" 
-                        type = "text" 
-                        name = "episode" 
-                        value = {inputs.episode}>
-                    </input>
-                    <button className = "button2">See Episode!</button>
+                    <Link to = {`/OneCharacter/${inputs}`}>
+                        <button className = "button1">See Character!</button>
+                    </Link>
+                    
                 </form>
         </div>
     )
+                    
 }
+    
                         
 
                

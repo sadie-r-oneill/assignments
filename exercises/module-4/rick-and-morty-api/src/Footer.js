@@ -16,7 +16,6 @@ export default function Footer(){
         <StyledFooter>
             <footer>
                 <h3>CHARACTERS: 493</h3>
-                <h3>LOCATIONS: 76</h3>
                 <h3>EPISODES: 31</h3>
                   
             </footer>

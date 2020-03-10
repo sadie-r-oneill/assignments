@@ -1,7 +1,7 @@
 import React, {useContext} from "react"
 import {RickAndMortyContext} from './Context/RickAndMortyContext'
 import CharacterDisplay from './CharacterDisplay'
-import {Link, Switch, Route} from "react-router-dom"
+
 
 
 export default function CharacterList(){

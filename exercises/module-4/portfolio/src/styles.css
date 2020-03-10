@@ -74,9 +74,14 @@
         position: relative;
         
     }
+
+    .container{
+        display:grid;
+
+    }
     .gmailImg{
-        display: flex;
-        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
         margin-left:15%;
         margin-top:46%;
         align-items: center;

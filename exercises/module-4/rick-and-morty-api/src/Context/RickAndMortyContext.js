@@ -5,8 +5,10 @@ export const RickAndMortyContext = React.createContext()
 export default function RicknMortyProvider(props){
     const [charactersState, setCharactersState] = useState([])
     const [currentPage, setCurrentPage] = useState(1)
+    const [currentEpisode,setCurrentEpisode] = useState(1)
+    const [episodeState, setEpisodeState] = useState([])
+    const [userInput, setUserInput] = useState({})
 
-    const [name, setName] = useState([0])
 
         //get all characters
 
@@ -30,25 +32,53 @@ export default function RicknMortyProvider(props){
         }) 
         
     }
-  
-    
         //get specific character
-
-    function getChar(){
-        fetch("https://rickandmortyapi.com/api/character/")
+    function getChar(userInput){
+        fetch(`https://rickandmortyapi.com/api/character/?name=${userInput}`)
         .then(response => response.json())
         .then(response => {
-            setName(prevState => {
-                return [...prevState, ...response.results]
-            })
+           
+            setUserInput(response.results[0])
         })
+        console.log("fired")
     }
+  
+
+
+    //create episode function
+
+    function getEpisode(){
+        fetch(`https://rickandmortyapi.com/api/episode/?page=${currentEpisode}`) 
+        .then(response => response.json())
+        .then(response => {
+            console.log(response.results)
+            setEpisodeState(prev => ([...prev, ...response.results]))
+        })
+        .catch(err => console.log(err))
+    }
+
+    useEffect(()=> {
+        getEpisode()
+    },[currentEpisode])
+
+    function switchEpisode(){
+        setCurrentEpisode(prev => {
+            return prev + 1
+        }) 
+        
+    }
+
     return(
-        <RickAndMortyContext.Provider value = {{charactersState, getCharacters,switchPage}}>
-            {props.children}
+        <RickAndMortyContext.Provider 
+            value = {{userInput, charactersState, episodeState, getCharacters, switchPage, getEpisode, switchEpisode, getChar}}>
+                {props.children}
         </RickAndMortyContext.Provider>
     )
 }
+    
+            
+            
+
                 
             
   
