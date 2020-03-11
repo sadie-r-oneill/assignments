@@ -12,8 +12,8 @@ import OneCharacter from './OneCharacter'
 export default function App(){
   return(
     <div>
-      <Navbar />
       <Header />
+      <Navbar />
       <Switch>
         <Route exact path ="/" component = {Main}/>
         <Route path = "/Characterlist" component = {CharacterList}/>

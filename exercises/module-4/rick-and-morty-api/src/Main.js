@@ -6,12 +6,19 @@ import {Link, Route} from "react-router-dom"
 const Photo = styled.div`
     display:flex;
     justify-content:center;
-    background-image:url("https://static.highsnobiety.com/thumbor/m_RQFJgji5fGd8Ub2bTRiJntWUk=/fit-in/800x480/smart/static.highsnobiety.com/wp-content/uploads/2019/05/15182639/rick-morty-season-4-release-date-feature.jpg");
-    height:480px;
-    width: 800px;
-    margin-left:20%;
+    background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
+    background-size:cover;
     border-radius:5%;
     box-shadow: 10px 10px yellow;
+    margin-left:auto;
+    margin-right:auto;
+    height:720px;
+    width:1200px;
+    @media(max-width:600px){
+        height:240px;
+        width:400px;
+    }
+   
 
 `
 export default function Char(){

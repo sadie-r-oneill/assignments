@@ -5,15 +5,23 @@
     background-color: midnightblue;
     
 }
-body{
-    background-image: url(https://wallup.net/wp-content/uploads/2019/09/70777-stars-blue-nebula.jpg);
-    background-size: cover;
-}
-
 @font-face {
     font-family: ricknmorty;
     src: url(./fonts/MISFITS_.TTF);
 }
+
+    
+
+.charSearch{
+    display:flex;
+    margin-top:8%;
+    margin-left:24%;
+    color:whitesmoke;
+    font-family:ricknmorty;
+    margin-bottom:5%;
+    font-size:30px;
+}
+    
 
 a{
     color: rgb(230, 238, 68);
@@ -24,10 +32,12 @@ a{
 
 .charSearch{
     display:flex;
-    margin-top:3%;
-    margin-left:20%;
+    margin-top:8%;
+    margin-left:24%;
     color:whitesmoke;
     font-family:ricknmorty;
+    margin-bottom:5%;
+    font-size:30px;
     
 
 }
@@ -46,31 +56,21 @@ a{
     color:whitesmoke;
     font-family:ricknmorty;
 }
-.input2{
-    height: 40px;
-    width:150px;
-    background-color: white;
-    margin-left: 20%;
-    border: rgb(141, 230, 57) 4px solid;
-}
-   
 
 .button1{
-    display: flex;
-    justify-content: center;
+    margin-top:10%;
     background-color: rgb(241, 241, 238);
-    margin-left:20%;
-    margin-top:1%;
+    margin-left:5%;
     padding:0.5%;
+    height:60px;
+    width:200px;
+    font-family:ricknmorty;
+    font-size: 20px;
+    background-color: hotpink;
+    color:greenyellow;
+
 }
-.button2{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(241, 241, 238);
-    margin-left:20%;
-    margin-top:1%;
-    padding:0.5%;
-}
+
 .nextPage{
     margin-top:5%;
     background-color: rgb(241, 241, 238);
@@ -95,7 +95,50 @@ a{
     box-shadow: 6px 6px lightslategray;
     border-radius: 10px;
 }
+.newForm{
+    height:80px;
+    width:200px;
+    margin:2%;
+    margin-top:5%;
+}
+.oneChar{
+    border:rgb(195, 111, 208) 10px solid;
+    margin:5%;
+    padding:3%;
+    font-family:ricknmorty;
+    font-size: 25px;
+    color:whitesmoke;
+    box-shadow: 8px 8px rgb(232, 162, 12);
+    border-radius: 10px;
+}
+.episodes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:rgb(202, 92, 58) 10px solid;
+    margin:5%;
+    padding:3%;
+    font-family:ricknmorty;
+    font-size: 25px;
+    color:rgb(139, 205, 235);
+    box-shadow: 6px 6px lightslategray;
+    border-radius: 10px;
+}
+.episodeBtn{
+    margin-top:5%;
+    background-color: rgb(241, 241, 238);
+    margin-left:40%;
+    padding:0.5%;
+    height:60px;
+    width:200px;
+    font-family:ricknmorty;
+    font-size: 20px;
+    background-color: hotpink;
+    color:greenyellow;
+}
 
+  
+    
 
 
 

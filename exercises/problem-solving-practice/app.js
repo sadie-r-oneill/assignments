@@ -1,12 +1,16 @@
-//return largest integer in array WITHOUT math.max
-//largest([3, 5, 2, 8, 1])
 
-let highestNumber = [num(3),num(5),num(2),num(8),num(1)]
-let maxNum = (highestNumber.map) 
+// write a function that takes two arrays. The arrays will only contain primative values
+// Your function will return one array of all values that both arrays share
+//join the arrays
 
-console.log(maxNum)
+getSharedValues([2, 4, 2, 5, 6, 3, 10], [3, 2, 1, 1, 10, 13]) //=> [2, 3, 10]
+
+getSharedValues(["zions", "arches", "yosemite"], ["zions", "arches", "goblin valley"])
+// => ["zions", "arches"]
 
 
-    
+
+
+
 
   

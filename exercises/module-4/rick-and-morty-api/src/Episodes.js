@@ -15,7 +15,7 @@ export default function Episodes(){
                     />
                 )
             })}
-            <button onClick = {() => switchEpisode()} className = "nextPage1">Load More!</button>
+            <button className = "episodeBtn" onClick = {() => switchEpisode()}>Load More!</button>
             
         </div>
     )

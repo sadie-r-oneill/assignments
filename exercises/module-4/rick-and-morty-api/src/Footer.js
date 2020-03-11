@@ -7,6 +7,7 @@ const StyledFooter = styled.h1`
     font-family: ricknmorty;
     color:rgb(65, 135, 128);
     font-size:30px;
+    height:vh 10px;
     margin:4%;
     color:orange;
     text-shadow: 2px 2px rgb(228, 56, 13);
