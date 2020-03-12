@@ -7,10 +7,15 @@ const StyledFooter = styled.h1`
     font-family: ricknmorty;
     color:rgb(65, 135, 128);
     font-size:30px;
-    height:vh 10px;
+    height:10vh;
     margin:4%;
     color:orange;
     text-shadow: 2px 2px rgb(228, 56, 13);
+
+    @media(max-width:400px){
+        font-size:20px;
+        margin-top:50%;
+    }
 `
 export default function Footer(){
     return(

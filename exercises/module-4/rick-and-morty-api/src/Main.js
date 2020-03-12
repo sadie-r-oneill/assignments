@@ -14,7 +14,12 @@ const Photo = styled.div`
     margin-right:auto;
     height:720px;
     width:1200px;
-    @media(max-width:600px){
+
+    @media(min-width:600px){
+        height:400px;
+        width:600px;
+    }
+    @media(max-width:400px){
         height:240px;
         width:400px;
     }

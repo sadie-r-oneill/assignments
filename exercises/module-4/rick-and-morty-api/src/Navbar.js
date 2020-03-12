@@ -15,7 +15,22 @@ const StyledNav = styled.nav`
         text-shadow: 4px 4px  rgb(7, 244, 82);
         
     }
-   
+    @media(max-width:600px){
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+        height:15vh;
+        font-size:20px;
+        text-shadow: 6px 6px  rgb(7, 244, 82);
+    }
+   @media(min-width:600px){
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+        height:15vh;
+        font-size:20px;
+        text-shadow: 6px 6px  rgb(7, 244, 82);
+   }
 `
 export default function Navbar(){
 
