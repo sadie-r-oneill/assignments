@@ -1,7 +1,7 @@
 import React, {useContext, useState} from "react"
 import styled from "styled-components"
 import {RickAndMortyContext} from "./Context/RickAndMortyContext"
-import {Link, Route} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 const Photo = styled.div`
     display:flex;

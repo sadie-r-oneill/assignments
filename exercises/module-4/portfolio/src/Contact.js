@@ -1,5 +1,4 @@
 import React from "react"
-//const Box = style.div `` -> syntax for styled-components
 
 function Contact(props){
     return (

@@ -9,9 +9,15 @@ export default function Email(){
             <h1 className = "language">Languages I use:</h1>
             <ul className = "bio">
                 <li>JavaScript</li>
-                <li>React, Redux, Git, CSS</li>
-                <li> MongoDB, Node.js, HTML</li>
-                <li>JSON Web Tokens, Express</li>
+                <li>React</li>
+                <li>Redux</li> 
+                <li>Git</li>  
+                <li>CSS</li>
+                <li> MongoDB</li>
+                <li>Node.js</li>   
+                <li>HTML</li>
+                <li>JSON Web Tokens</li>
+                <li>Express</li>
                 
             </ul>
         </div>

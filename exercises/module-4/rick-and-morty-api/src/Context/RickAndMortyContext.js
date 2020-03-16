@@ -10,7 +10,7 @@ export default function RicknMortyProvider(props){
     const [userInput, setUserInput] = useState({})
 
 
-        //get all characters
+    //get all characters
 
     function getCharacters(){
         fetch(`https://rickandmortyapi.com/api/character/?page=${currentPage}`) 

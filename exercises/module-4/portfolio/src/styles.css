@@ -9,28 +9,50 @@
         src: url(PortlandLdoItalic-owPz.ttf);
         
     }
+    @media only screen and (max-width:400px){
+
+        .myName{
+            font-size:5px;
+        }
+        .nav {
+            display: flex;
+            height:10vh;
+            justify-content: flex-end;
+            background-color:rgb(53, 53, 53);
+        }
+        .developer{
+            font-size:10px;
+        }
+        .contact{
+            background-size:cover;
+            height:100px;
+        }
+
+    }
+
     @media only screen and (max-width:600px){
 
     body{
-        background-color:rgba(238, 233, 233, 0.865);
+        background-color:darkgray;
         width:100%;
     }
     
     .nav {
         display: flex;
-        height:50px;
-        justify-content: space-evenly;
-        background-color: whitesmoke;
+        height:10vh;
+        justify-content: flex-end;
+        background-color:rgb(53, 53, 53);
     }
 
     a{
-        
+        height:10vh;
         margin:2%;
     }
     .contact{
         background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
         background-size: cover;
-        height: 260px;
+        height: 280px;
+        opacity: 0.9;
     }
     .gitImg{
         display: flex;
@@ -52,21 +74,21 @@
     }
     
     .myName {
-        font-size: 20px;
-        font-family: 'Libre Baskerville', serif;
-        color: rgb(52, 49, 49);
-        text-shadow: 2px 2px #d7cfcf;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        color: whitesmoke;
         position: relative;
         margin-left: 4%;
-        margin-bottom:1%;
+        margin-top:-7%;
+       
     }
     
     .developer{
         margin-left:3%;
         margin-top:10%;
-        color: rgba(28, 24, 23, 0.598);
-        font-size: 18px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: whitesmoke;
+        font-size: 22px;
+        font-family:'Roboto', sans-serif;
         position: relative;
         
     }
@@ -77,20 +99,20 @@
     }
     
     .myEmail {
-        margin-top:5%;
+        margin-top:2%;
         margin-left: 5%;
-        color:  rgba(28, 24, 23, 0.598);
-        font-size: 17px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: whitesmoke;
+        font-size: 18px;
+        font-family:'Roboto', sans-serif;
         position: relative;
         
     }
     
     .phone {
         margin-left:5%;
-        color:  rgba(28, 24, 23, 0.598);
-        font-size: 17px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: whitesmoke;
+        font-size: 18px;
+        font-family:'Roboto', sans-serif;
         position: relative;
         
     }
@@ -105,17 +127,17 @@
    
     .language {
         margin-left:5%;
-        color:  rgba(28, 24, 23, 0.598);
-        font-size: 17px;
-        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: whitesmoke;
+        font-size: 18px;
+        font-family:'Roboto', sans-serif;
         position: relative;
        
     }
     .bio {
         margin-left:5%;
-        color:  rgba(28, 24, 23, 0.598);
-        font-size: 17px;
-        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: whitesmoke;;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
         position: relative;
         
     }
@@ -124,35 +146,21 @@
 
 @media only screen and (min-width:600px){
 
-    body{
-        background-color:rgba(238, 233, 233, 0.865);
-        width:100%;
+    body {
+        background-color:darkgrey;
+        background-size: cover;
+            
+        } 
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+        background-color:rgb(53, 53, 53);
+        height:15vh;
     }
-
-    .nav {
-        display:flex;
-        justify-content: space-evenly;
-        background-color: whitesmoke;
-        height:70px;
-       
-    }
+        
     a{
-        display:flex;
-        justify-content: space-evenly;
         color: rgb(247, 247, 247);
         font-size: 20px;
-        margin:2%;
-    }
-    .contact{
-        background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-        background-size: cover; 
-        height: 400px;
-    }
-    .gitImg{
-        display: flex;
-        justify-content: center;
-        height:45px;
-        width:45px;
         
     }
     .linkedIn{
@@ -164,6 +172,13 @@
         width:45px;
        
     }
+    .gitImg{
+        display: flex;
+        justify-content: center;
+        height:45px;
+        width:45px;
+        
+    }
     .resumeImg{
         display: flex;
         justify-content: center;
@@ -172,74 +187,110 @@
         width:45px;
         
     }
+    
+    .contact{
+        background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        background-size: cover; 
+        opacity:0.9;
+        height:500px;
+    }
+    
+    
     .myName {
-        font-size: 35px;
-        font-family: 'Libre Baskerville', serif;
-        color: rgb(52, 49, 49);
-        text-shadow: 2px 2px #d7cfcf;
+        font-size:30px;
+        font-family: 'Roboto', sans-serif;
+        color: whitesmoke;
+        text-shadow: 1px 1px gray;
         margin-left: 5%;
-        margin-top:2%;
-       
+        margin-top:-7%;
+        
     }
     .developer{
-        color:rgba(28, 24, 23, 0.598);
+        color:whitesmoke;
         font-size: 30px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family:'Roboto', sans-serif;
         position: relative;
-        margin-top: 10%;
+        margin-top: 5%;
         
     }
     .myEmail {
         
         margin-left:2;
-        color:  rgba(28, 24, 23, 0.598);
+        color:  whitesmoke;
         font-size: 25px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Roboto', sans-serif;
         position: relative;
         
     }
     .phone {
         
-        color:  rgba(28, 24, 23, 0.598);
+        color: whitesmoke;
         font-size: 25px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Roboto', sans-serif;
         position: relative;
-       
+        
     }
     .language {
         
-        color:  rgba(28, 24, 23, 0.598);
+        color: whitesmoke;
         font-size: 25px;
-        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family:  'Roboto', sans-serif;
         position: relative;
     }
     .bio {
         
-        color:  rgba(28, 24, 23, 0.598);
+        color: whitesmoke;
         font-size: 25px;
-        font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Roboto', sans-serif;
         position: relative;
-       
+        
     }
-
 }
-
+    
 @media only screen and (min-width:1000px){
    
 body {
-    background-color:rgb(227, 227, 227);
+    background-color:darkgrey;
     background-size: cover;
         
     } 
 .nav {
     
     display: flex;
-    height:75px;
-    justify-content: space-evenly;
+    height:22vh;
+    justify-content: flex-end;
     align-items:center;
-    background-color: whitesmoke;
+    background-color: rgb(53, 53, 53);
+}
+.contact{
+    background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
 }
 
+.linkedIn{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+    align-items: center;
+    height:65px;
+    width:60px;
+   
+}
+.gitImg{
+    display: flex;
+    justify-content: center;
+    height:60px;
+    width:60px;
+    
+}
+.resumeImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width:60px;
+    
+}
 .contact {
     width: 100%;
     height:700px;
@@ -247,55 +298,51 @@ body {
 } 
 
 .myEmail {
-    color:  rgba(28, 24, 23, 0.598);
-    font-size: 20px;
+    color:whitesmoke;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    margin-top:5%;
     margin-left: 10%;
 }
 
 .phone {
-    color:  rgba(28, 24, 23, 0.598);
-    font-size: 20px;
+    color:whitesmoke;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     margin-left: 10%;
 }
 
 .myName {
-    font-size: 80px;
+    font-size: 60px;
     margin-left: 7%;
-    margin-top:2%;
-    font-family:'Libre Baskerville', serif;
-    color: rgb(27, 29, 48);
-    text-shadow: 3px 3px #d7cfcf;
-    
+    font-family:'Roboto', sans-serif;
+    color: whitesmoke;
 }
 
 .developer{
     margin-left:10%;
-    color:   rgba(23, 21, 20, 0.666);
-    font-size:50px;
+    color:whitesmoke;
+    font-size:55px;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    margin-top:3%;
+    /* margin-top:8%; */
     margin-bottom:2%;
    
 }
 
 
 .language {
-    margin-left:25%;
-    color:  rgba(28, 24, 23, 0.598);
-    font-size: 16px;
+    margin-left:10%;
+    color: whitesmoke;
+    font-size: 25px;
     font-family:  'Roboto', sans-serif;
     position: relative;
-    margin-top:20%;
+    margin-top:3%;
 }
 .bio {
-    margin-left:25%;
-    color:rgba(28, 24, 23, 0.598);
-    font-size: 16px;
+    margin-left:10%;
+    color:whitesmoke;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     position: relative;
     
