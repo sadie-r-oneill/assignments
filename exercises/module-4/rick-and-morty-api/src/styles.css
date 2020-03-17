@@ -10,40 +10,37 @@
     src: url(./fonts/MISFITS_.TTF);
 }
 @media only screen and (max-width:400px){
+    a{
+        display: flex;
+        justify-content: space-evenly;
+    }
     .charSearch{
         display:flex;
-        margin-top:8%;
-        margin-left:50%;
+        justify-content: center;
+        align-items:center;
+        height:8vh;
+        margin-left: auto;
+        margin-right:auto;
         color:whitesmoke;
         font-family:ricknmorty;
         margin-bottom:5%;
         font-size:20px;
     }
-    .button1{
-        display: flex;
-        justify-content: center;
-        margin-top:10%;
-        background-color: rgb(241, 241, 238);
-        margin-left:10%;
-        padding:0.5%;
-        height:5vh;
-        width:50px;
-        font-family:ricknmorty;
-        font-size: 10px;
-        background-color: hotpink;
-        color:greenyellow;
-    
-    }
-    .newForm{
+    .oneChar{
         display:inline-grid;
-        height:15vh;
-        width:100px;
-        margin:2%;
-        margin-top:10%;
-        margin-left:20%;
-
+        justify-content: center;
+        border:rgb(195, 111, 208) 10px solid;
+        margin:5%;
+        padding:3%;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:whitesmoke;
+        box-shadow: 8px 8px rgb(232, 162, 12);
+        border-radius: 10px;
     }
     .nextPage{
+        display: flex;
+        justify-content: center;
         margin-top:5%;
         background-color: rgb(241, 241, 238);
         margin-left:20%;
@@ -56,10 +53,11 @@
         color:greenyellow;
     }
     .input1 {
+        display: flex;
+        justify-content: center;
         height:10vh;
         width:100px;
         background-color: white;
-        margin-left: 20%;
         border: rgb(141, 230, 57) 4px solid;
     }
     .charStyle{
@@ -74,7 +72,9 @@
         border-radius: 10px;
     }
     .episodes{
-        display:column;
+        display:flex;
+        justify-content: center;
+        align-items: center;
         border:rgb(202, 92, 58) 5px solid;
         margin:5%;
         padding:3%;
@@ -84,131 +84,277 @@
         box-shadow: 3px 3px lightslategray;
         border-radius: 10px;
     }
-    .episodeSearch{
-        display:flex;
-        margin-top:3%;
-        margin-left:20%;
-        color:whitesmoke;
-        font-family:ricknmorty;
-    }
+    
 }
 @media only screen and (max-width:600px){
+    .charSearch{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        height:8vh;
+        color:whitesmoke;
+        font-family:ricknmorty;
+        font-size:20px;
+    }
+    a{
+        display:flex;
+        justify-content: space-evenly;
+        color: rgb(230, 238, 68);
+        text-shadow: 2px 2px rgb(228, 56, 13);
+        
+    }
+    .input1{
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        width:150px;
+        background-color: white;
+        margin-left:auto;
+        margin-right:auto;
+        border: rgb(141, 230, 57) 4px solid;
+    }
+    .button1{
+        display: flex;
+        justify-content: center;
+        margin-top:3%;
+        background-color: rgb(241, 241, 238);
+        margin-left:5%;
+        padding:0.2%;
+        height:4vh;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
+    }
+    .nextPage{
+        margin-top:5%;
+        background-color: rgb(241, 241, 238);
+        margin-left:40%;
+        padding:0.5%;
+        height:60px;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
+    }
+    .charStyle{
+        display:inline-grid;
+        grid-template-columns: auto;
+        border:rgb(58, 197, 202) 10px solid;
+        margin:5%;
+        padding:3%;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:whitesmoke;
+        box-shadow: 6px 6px lightslategray;
+        border-radius: 10px;
+    }
+    .oneChar{
+        display:inline-grid;
+        justify-content: center;
+        border:rgb(195, 111, 208) 10px solid;
+        margin:5%;
+        padding:3%;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:whitesmoke;
+        box-shadow: 8px 8px rgb(232, 162, 12);
+        border-radius: 10px;
+    }
+    .episodes{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border:rgb(202, 92, 58) 10px solid;
+        height:150px;
+        margin:5%;
+        font-family:ricknmorty;
+        font-size: 15px;
+        color:rgb(139, 205, 235);
+        box-shadow: 4px 4px lightslategray;
+        border-radius: 8px;
+    }
+    .episodeBtn{
+        margin-top:5%;
+        margin-bottom:5%;
+        background-color: rgb(241, 241, 238);
+        margin-left:40%;
+        padding:0.5%;
+        height:60px;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
 
+    }
+    
+}
+@media only screen and (min-width:600px){
+    a{  
+        display:flex;
+        justify-content: space-evenly;
+        color: rgb(230, 238, 68);
+        text-shadow: 2px 2px rgb(228, 56, 13);
+    }
+    .charSearch{
+        display:flex;
+        justify-content:center;
+        margin-top:8%;
+        margin-bottom: 2%;
+        color:whitesmoke;
+        font-family:ricknmorty;
+        font-size:30px;
+    }
+    .input1 {
+        display:flex;
+        justify-content:center;
+        height: 35px;
+        width:150px;
+        background-color: white;
+        margin-left: auto;
+        margin-right:auto;
+        border: rgb(141, 230, 57) 4px solid;
+        margin-bottom:2%;
+    }
+    .button1{
+        display:flex;
+        justify-content:center;
+        background-color: rgb(241, 241, 238);
+        padding:0.2%;
+        height:4vh;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
+        margin-bottom: 3%;
+        
+    }
+    .charStyle{
+        display:inline-grid;
+        grid-template-columns: auto;
+        border:rgb(58, 197, 202) 10px solid;
+        margin:5%;
+        padding:3%;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:whitesmoke;
+        box-shadow: 6px 6px lightslategray;
+        border-radius: 10px;
+    }
+    .oneChar{
+        display:inline-grid;
+        align-items: center;
+        justify-content: center;
+        border:rgb(195, 111, 208) 10px solid;
+        margin:5%;
+        padding:3%;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:whitesmoke;
+        box-shadow: 8px 8px rgb(232, 162, 12);
+        border-radius: 10px;
+    }
+    .episodes{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border:rgb(202, 92, 58) 10px solid;
+        margin:5%;
+        height:175px;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:rgb(139, 205, 235);
+        box-shadow: 6px 6px lightslategray;
+        border-radius: 10px;
+    }
+    .episodeBtn{
+        display:flex;
+        justify-content: center;
+        margin-top:5%;
+        margin-bottom:5%;
+        background-color: rgb(241, 241, 238);
+        margin-left:40%;
+        padding:0.5%;
+        height:60px;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
+    }
 }
     
-a{
-    color: rgb(230, 238, 68);
-    text-shadow: 2px 2px rgb(228, 56, 13);
-    
-}
+@media only screen and (min-width:1000px){
 
-.charSearch{
-    display:flex;
-    margin-top:8%;
-    margin-left:24%;
-    color:whitesmoke;
-    font-family:ricknmorty;
-    margin-bottom:5%;
-    font-size:30px;
-    
-
+    a{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .charSearch{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        height:8vh;
+        margin-left: auto;
+        margin-right:auto;
+        color:whitesmoke;
+        font-family:ricknmorty;
+        font-size:35px;
+    }
+    .input1 {
+        display:flex;
+        justify-content:center;
+        height: 40px;
+        width:150px;
+        background-color: white;
+        margin-left: auto;
+        margin-right:auto;
+        border: rgb(141, 230, 57) 4px solid;
+    }
+    .button1{
+        display:flex;
+        justify-content:center;
+        background-color: rgb(241, 241, 238);
+        padding:0.2%;
+        height:4vh;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
+    }
+    .charStyle{
+        display:inline-grid;
+        grid-template-columns: auto;
+        border:rgb(58, 197, 202) 10px solid;
+        margin:5%;
+        padding:3%;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:whitesmoke;
+        box-shadow: 6px 6px lightslategray;
+        border-radius: 10px;
+    }
+    .oneChar{
+        display:inline-grid;
+        justify-content: center;
+        align-items: center;
+        border:rgb(195, 111, 208) 10px solid;
+        margin:5%;
+        padding:3%;
+        font-family:ricknmorty;
+        font-size: 25px;
+        color:whitesmoke;
+        box-shadow: 8px 8px rgb(232, 162, 12);
+        border-radius: 10px;
+    }
 }
-.input1 {
-    height: 40px;
-    width:150px;
-    background-color: white;
-    margin-left: 20%;
-    border: rgb(141, 230, 57) 4px solid;
-}
-    
-.episodeSearch{
-    display:flex;
-    margin-top:3%;
-    margin-left:20%;
-    color:whitesmoke;
-    font-family:ricknmorty;
-}
-
-.button1{
-    margin-top:10%;
-    background-color: rgb(241, 241, 238);
-    margin-left:5%;
-    padding:0.5%;
-    height:10vh;
-    width:200px;
-    font-family:ricknmorty;
-    font-size: 20px;
-    background-color: hotpink;
-    color:greenyellow;
-
-}
-
-.nextPage{
-    margin-top:5%;
-    background-color: rgb(241, 241, 238);
-    margin-left:40%;
-    padding:0.5%;
-    height:60px;
-    width:200px;
-    font-family:ricknmorty;
-    font-size: 20px;
-    background-color: hotpink;
-    color:greenyellow;
-}
-.charStyle{
-    display:inline-grid;
-    grid-template-columns: auto;
-    border:rgb(58, 197, 202) 10px solid;
-    margin:5%;
-    padding:3%;
-    font-family:ricknmorty;
-    font-size: 25px;
-    color:whitesmoke;
-    box-shadow: 6px 6px lightslategray;
-    border-radius: 10px;
-}
-.newForm{
-    display:inline-grid;
-    height:15vh;
-    width:200px;
-    margin:2%;
-    margin-top:5%;
-}
-.oneChar{
-    border:rgb(195, 111, 208) 10px solid;
-    margin:5%;
-    padding:3%;
-    font-family:ricknmorty;
-    font-size: 25px;
-    color:whitesmoke;
-    box-shadow: 8px 8px rgb(232, 162, 12);
-    border-radius: 10px;
-}
-.episodes{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border:rgb(202, 92, 58) 10px solid;
-    margin:5%;
-    padding:3%;
-    font-family:ricknmorty;
-    font-size: 25px;
-    color:rgb(139, 205, 235);
-    box-shadow: 6px 6px lightslategray;
-    border-radius: 10px;
-}
-.episodeBtn{
-    margin-top:5%;
-    background-color: rgb(241, 241, 238);
-    margin-left:40%;
-    padding:0.5%;
-    height:60px;
-    width:200px;
-    font-family:ricknmorty;
-    font-size: 20px;
-    background-color: hotpink;
-    color:greenyellow;
-}
+       
+        
 
   
     

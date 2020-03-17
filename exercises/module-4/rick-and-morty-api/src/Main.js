@@ -4,24 +4,57 @@ import {RickAndMortyContext} from "./Context/RickAndMortyContext"
 import {Link} from "react-router-dom"
 
 const Photo = styled.div`
-    display:flex;
-    justify-content:center;
-    background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
-    background-size:cover;
-    border-radius:5%;
-    box-shadow: 10px 10px yellow;
-    margin-left:auto;
-    margin-right:auto;
-    height:720px;
-    width:1200px;
 
+    @media(max-width:400px){
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
+        background-size:cover;
+        margin-left:auto;
+        height:200px;
+        width:325px;
+        margin-right:auto;
+    }
     @media(min-width:600px){
+        display:flex;
+        justify-content:center;
+        align-items:center;
         height:400px;
         width:600px;
+        background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
+        background-size:cover;
+        border-radius:5%;
+        box-shadow: 8px 8px yellow;
+        margin-left:auto;
+        margin-right:auto;
     }
-    @media(max-width:400px){
-        height:240px;
-        width:400px;
+    @media(max-width:600px){
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
+        background-size:cover;
+        height:350px;
+        width:425px;
+        border-radius:5%;
+        box-shadow: 8px 8px yellow;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    @media(min-width:1000px){
+        display:flex;
+        justify-content:center;
+        background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
+        background-size:cover;
+        border-radius:5%;
+        box-shadow: 10px 10px yellow;
+        align-items:center;
+        height:720px;
+        width:1200px;
+        margin-left:auto;
+        margin-right:auto;
+       
     }
    
 
