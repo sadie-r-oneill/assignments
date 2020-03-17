@@ -25,11 +25,11 @@
         }
         .contact{
             background-size:cover;
-            height:100px;
+            background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+            height:25vh;
         }
 
     }
-
     @media only screen and (max-width:600px){
 
     body{
@@ -45,13 +45,12 @@
     }
 
     a{
-        height:10vh;
         margin:2%;
     }
     .contact{
         background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
         background-size: cover;
-        height: 280px;
+        height: 30vh;
         opacity: 0.9;
     }
     .gitImg{
@@ -200,14 +199,13 @@
         font-size:30px;
         font-family: 'Roboto', sans-serif;
         color: whitesmoke;
-        text-shadow: 1px 1px gray;
         margin-left: 5%;
         margin-top:-7%;
         
     }
     .developer{
         color:whitesmoke;
-        font-size: 30px;
+        font-size: 40px;
         font-family:'Roboto', sans-serif;
         position: relative;
         margin-top: 5%;
@@ -265,6 +263,7 @@ body {
 .contact{
     background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
+    height:15vh;
 }
 
 .linkedIn{
@@ -313,6 +312,9 @@ body {
 }
 
 .myName {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 60px;
     margin-left: 7%;
     font-family:'Roboto', sans-serif;
