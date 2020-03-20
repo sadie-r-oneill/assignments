@@ -12,11 +12,13 @@
     @media only screen and (max-width:400px){
 
         .myName{
+            display: flex;
+            align-items: center;
             font-size:5px;
         }
         .nav {
             display: flex;
-            height:10vh;
+            height:5vh;
             justify-content: flex-end;
             background-color:rgb(53, 53, 53);
         }
@@ -26,7 +28,8 @@
         .contact{
             background-size:cover;
             background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-            height:25vh;
+            height:200px;
+            opacity: 0.9;
         }
 
     }
@@ -39,8 +42,9 @@
     
     .nav {
         display: flex;
-        height:10vh;
+        height:8vh;
         justify-content: flex-end;
+        align-items: center;
         background-color:rgb(53, 53, 53);
     }
 
@@ -50,7 +54,7 @@
     .contact{
         background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
         background-size: cover;
-        height: 30vh;
+        height:300px;
         opacity: 0.9;
     }
     .gitImg{
@@ -73,6 +77,8 @@
     }
     
     .myName {
+        display: flex;
+        align-items: center;
         font-size: 17px;
         font-family: 'Roboto', sans-serif;
         color: whitesmoke;
@@ -153,8 +159,9 @@
     .nav{
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         background-color:rgb(53, 53, 53);
-        height:15vh;
+        height:10vh;
     }
         
     a{
@@ -255,7 +262,7 @@ body {
 .nav {
     
     display: flex;
-    height:22vh;
+    height:20vh;
     justify-content: flex-end;
     align-items:center;
     background-color: rgb(53, 53, 53);
@@ -263,7 +270,8 @@ body {
 .contact{
     background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
-    height:15vh;
+    opacity: 0.9;
+    height:775px;
 }
 
 .linkedIn{
@@ -290,12 +298,6 @@ body {
     width:60px;
     
 }
-.contact {
-    width: 100%;
-    height:700px;
-   
-} 
-
 .myEmail {
     color:whitesmoke;
     font-size: 35px;
@@ -315,7 +317,7 @@ body {
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 60px;
+    font-size: 55px;
     margin-left: 7%;
     font-family:'Roboto', sans-serif;
     color: whitesmoke;
@@ -327,12 +329,9 @@ body {
     font-size:55px;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    /* margin-top:8%; */
     margin-bottom:2%;
    
 }
-
-
 .language {
     margin-left:10%;
     color: whitesmoke;
