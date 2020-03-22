@@ -27,10 +27,11 @@
         font-size:20px;
     }
     .oneChar{
-        display:inline-grid;
+        display:block;
         justify-content: center;
         border:rgb(195, 111, 208) 10px solid;
-        margin:5%;
+        margin-left: auto;
+        margin-right: auto;
         padding:3%;
         font-family:ricknmorty;
         font-size: 25px;
@@ -61,9 +62,11 @@
         border: rgb(141, 230, 57) 4px solid;
     }
     .charStyle{
-        display:column;
+        display:block;
         border:rgb(58, 197, 202) 10px solid;
         margin:5%;
+        margin-left: auto;
+        margin-right: auto;
         padding:3%;
         font-family:ricknmorty;
         font-size: 15px;
@@ -72,17 +75,36 @@
         border-radius: 10px;
     }
     .episodes{
-        display:flex;
+        display:block;
         justify-content: center;
         align-items: center;
         border:rgb(202, 92, 58) 5px solid;
         margin:5%;
+        margin-left:auto;
+        margin-right:auto;
         padding:3%;
         font-family:ricknmorty;
         font-size: 10px;
         color:rgb(139, 205, 235);
         box-shadow: 3px 3px lightslategray;
         border-radius: 10px;
+    }
+    .episodeBtn{
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:auto;
+        margin-bottom:auto;
+        background-color: rgb(241, 241, 238);
+        margin-left:40%;
+        padding:0.5%;
+        height:60px;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
+
     }
     
 }
@@ -140,10 +162,11 @@
         color:greenyellow;
     }
     .charStyle{
-        display:inline-grid;
-        grid-template-columns: auto;
+        display:block;
         border:rgb(58, 197, 202) 10px solid;
         margin:5%;
+        margin-left: auto;
+        margin-right: auto;
         padding:3%;
         font-family:ricknmorty;
         font-size: 25px;
@@ -152,10 +175,11 @@
         border-radius: 10px;
     }
     .oneChar{
-        display:inline-grid;
+        display:block;
         justify-content: center;
         border:rgb(195, 111, 208) 10px solid;
-        margin:5%;
+        margin-left:auto;
+        margin-right:auto;
         padding:3%;
         font-family:ricknmorty;
         font-size: 25px;
@@ -164,23 +188,28 @@
         border-radius: 10px;
     }
     .episodes{
-        display:flex;
+        display:block;
         justify-content: center;
         align-items: center;
         border:rgb(202, 92, 58) 10px solid;
         height:150px;
         margin:5%;
+        margin-left:auto;
+        margin-right:auto;
         font-family:ricknmorty;
         font-size: 15px;
         color:rgb(139, 205, 235);
         box-shadow: 4px 4px lightslategray;
         border-radius: 8px;
+
     }
     .episodeBtn{
-        margin-top:5%;
-        margin-bottom:5%;
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:auto;
+        margin-bottom:auto;
         background-color: rgb(241, 241, 238);
-        margin-left:40%;
         padding:0.5%;
         height:60px;
         width:200px;
@@ -234,10 +263,11 @@
         
     }
     .charStyle{
-        display:inline-grid;
-        grid-template-columns: auto;
+        display:block;
         border:rgb(58, 197, 202) 10px solid;
         margin:5%;
+        margin-left: auto;
+        margin-right: auto;
         padding:3%;
         font-family:ricknmorty;
         font-size: 25px;
@@ -246,11 +276,12 @@
         border-radius: 10px;
     }
     .oneChar{
-        display:inline-grid;
+        display:block;
         align-items: center;
         justify-content: center;
         border:rgb(195, 111, 208) 10px solid;
-        margin:5%;
+        margin-left: auto;
+        margin-right:auto;
         padding:3%;
         font-family:ricknmorty;
         font-size: 25px;
@@ -259,23 +290,27 @@
         border-radius: 10px;
     }
     .episodes{
-        display:flex;
+        display:block;
         justify-content: center;
         align-items: center;
         border:rgb(202, 92, 58) 10px solid;
         margin:5%;
+        margin-left:auto;
+        margin-right:auto;
         height:175px;
         font-family:ricknmorty;
-        font-size: 25px;
+        font-size: 30px;
         color:rgb(139, 205, 235);
         box-shadow: 6px 6px lightslategray;
         border-radius: 10px;
     }
     .episodeBtn{
-        display:flex;
+        display:block;
         justify-content: center;
         margin-top:5%;
         margin-bottom:5%;
+        margin-left: auto;
+        margin-right: auto;
         background-color: rgb(241, 241, 238);
         margin-left:40%;
         padding:0.5%;
@@ -328,11 +363,12 @@
         color:greenyellow;
     }
     .charStyle{
-        display:inline-grid;
-        grid-template-columns: auto;
+        display:block;
         border:rgb(58, 197, 202) 10px solid;
         margin:5%;
-        padding:3%;
+        margin-left: auto;
+        margin-right: auto;
+        padding:5%;
         font-family:ricknmorty;
         font-size: 25px;
         color:whitesmoke;
@@ -351,6 +387,38 @@
         color:whitesmoke;
         box-shadow: 8px 8px rgb(232, 162, 12);
         border-radius: 10px;
+    }
+    .episodes{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        border:rgb(202, 92, 58) 10px solid;
+        margin:5%;
+        margin-left:auto;
+        margin-right:auto;
+        height:175px;
+        font-family:ricknmorty;
+        font-size: 30px;
+        color:rgb(139, 205, 235);
+        box-shadow: 6px 6px lightslategray;
+        border-radius: 10px;
+    }
+    .episodeBtn{
+        display:block;
+        justify-content: center;
+        margin-top:5%;
+        margin-bottom:5%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(241, 241, 238);
+        margin-left:40%;
+        padding:0.5%;
+        height:60px;
+        width:200px;
+        font-family:ricknmorty;
+        font-size: 20px;
+        background-color: hotpink;
+        color:greenyellow;
     }
 }
        

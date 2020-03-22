@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 const Photo = styled.div`
 
     @media(max-width:400px){
-        display:flex;
+        display:block;
         justify-content:center;
         align-items:center;
         background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
@@ -17,7 +17,7 @@ const Photo = styled.div`
         margin-right:auto;
     }
     @media(min-width:600px){
-        display:flex;
+        display:block;
         justify-content:center;
         align-items:center;
         height:400px;
@@ -30,7 +30,7 @@ const Photo = styled.div`
         margin-right:auto;
     }
     @media(max-width:600px){
-        display:flex;
+        display:block;
         justify-content:center;
         align-items:center;
         background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
@@ -43,7 +43,7 @@ const Photo = styled.div`
         margin-right:auto;
     }
     @media(min-width:1000px){
-        display:flex;
+        display:block;
         justify-content:center;
         background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
         background-size:cover;
