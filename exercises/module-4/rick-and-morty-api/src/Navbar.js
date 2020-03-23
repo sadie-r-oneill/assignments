@@ -8,6 +8,7 @@ const StyledNav = styled.nav`
         display:flex;
         justify-content:space-evenly;
         font-size:15px;
+        height:15vh;
         text-shadow: 4px 4px  rgb(7, 244, 82);
         font-family:ricknmorty;
         

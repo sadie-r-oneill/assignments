@@ -15,7 +15,7 @@
         justify-content: space-evenly;
     }
     .charSearch{
-        display:flex;
+        display:block;
         justify-content: center;
         align-items:center;
         height:8vh;
@@ -24,6 +24,7 @@
         color:whitesmoke;
         font-family:ricknmorty;
         margin-bottom:5%;
+        margin-top:2%;
         font-size:20px;
     }
     .oneChar{
@@ -235,7 +236,7 @@
         margin-bottom: 2%;
         color:whitesmoke;
         font-family:ricknmorty;
-        font-size:30px;
+        font-size:35px;
     }
     .input1 {
         display:flex;

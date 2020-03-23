@@ -8,7 +8,10 @@ const StyledFooter = styled.h1`
         jusyify-content:center;
         align-items:center;
         font-size:20px;
-        height:10vh,
+        height:10vh;
+        margin-top:3%;
+        margin-bottom:1%;
+
     }
     @media(max-width:600px){
         display:flex;
@@ -16,9 +19,10 @@ const StyledFooter = styled.h1`
         font-family: ricknmorty;
         font-size:20px;
         height:10vh;
-        margin-top:5%;
+        margin-top:3%;
         color:orange;
         text-shadow: 1px 1px rgb(228, 56, 13);
+        margin-bottom:1%;
     }
     @media(min-width:600px){
         display:flex;
@@ -27,6 +31,8 @@ const StyledFooter = styled.h1`
         font-size:25px;
         height:10vh;
         color:orange;
+        margin-top:3%;
+        margin-bottom:2%;
         text-shadow: 2px 2px rgb(228, 56, 13);
     }
     @media(min-width:1000px){
@@ -35,8 +41,9 @@ const StyledFooter = styled.h1`
         font-family: ricknmorty;
         font-size:30px;
         height:10vh;
-        margin:4%;
+        margin-top:3%;
         color:orange;
+        margin-bottom:2%;
         text-shadow: 2px 2px rgb(228, 56, 13);
     }
 `

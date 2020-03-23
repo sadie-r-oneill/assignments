@@ -15,28 +15,29 @@ const Photo = styled.div`
         height:200px;
         width:325px;
         margin-right:auto;
-    }
-    @media(min-width:600px){
-        display:block;
-        justify-content:center;
-        align-items:center;
-        height:400px;
-        width:600px;
-        background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
-        background-size:cover;
-        border-radius:5%;
-        box-shadow: 8px 8px yellow;
-        margin-left:auto;
-        margin-right:auto;
+        box-shadow: 4px 4px yellow;
     }
     @media(max-width:600px){
         display:block;
         justify-content:center;
         align-items:center;
+        height:200px;
+        width:325px;
         background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
         background-size:cover;
-        height:350px;
-        width:425px;
+        border-radius:5%;
+        box-shadow: 4px 4px yellow;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    @media(min-width:600px){
+        display:block;
+        justify-content:center;
+        align-items:center;
+        background-image:url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F07%2Frick-and-morty-season-4-dan-harmon-justin-roiland-interview-0-1.jpg");
+        background-size:cover;
+        height:375px;
+        width:550px;
         border-radius:5%;
         box-shadow: 8px 8px yellow;
         margin-left:auto;
@@ -50,10 +51,11 @@ const Photo = styled.div`
         border-radius:5%;
         box-shadow: 10px 10px yellow;
         align-items:center;
-        height:720px;
-        width:1200px;
+        height:600px;
+        width:900px;
         margin-left:auto;
         margin-right:auto;
+        margin-top:5%;
        
     }
    
