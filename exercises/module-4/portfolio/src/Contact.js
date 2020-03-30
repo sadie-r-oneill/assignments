@@ -1,12 +1,13 @@
 import React from "react"
+import {Link} from "react-router-dom"
 
 function Contact(props){
     return (
         <div className = "contact">
             <nav className = "nav">
-                <a href = "">
+                <Link to = "/resume">
                 <img className = "resumeImg" src ="https://img.icons8.com/bubbles/2x/book.png"></img>
-                </a>
+                </Link>
                 <a href = "https://github.com/sadie-r-oneill">
                 <img className = "gitImg" src = "https://img.icons8.com/color/480/github--v1.png"></img>
                 </a>

@@ -9,9 +9,6 @@ export default function RicknMortyProvider(props){
     const [episodeState, setEpisodeState] = useState([])
     const [userInput, setUserInput] = useState({})
 
-
-    //get all characters
-
     function getCharacters(){
         fetch(`https://rickandmortyapi.com/api/character/?page=${currentPage}`) 
         .then(response => response.json())
