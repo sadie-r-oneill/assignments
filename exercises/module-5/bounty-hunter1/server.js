@@ -1,15 +1,17 @@
 const express = require("express")
 const app = express()
 const uuid = require("uuid/v4")
+const morgan = require("morgan")
 
 //middleware for every request
 app.use(express.json())
+app.use(morgan("dev")) //logs requests to the console
 
 //data
 
 
 //routes
-app.use("/bounties",require("./routes/bountyHunter.js"))
+app.use("/bounties",require("./routes/BountyHunter.js"))
 
 //Server Listen
 app.listen(9000, () => {
