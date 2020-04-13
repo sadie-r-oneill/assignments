@@ -31,12 +31,16 @@ movieRouter.post('/',(req,res,next) => {
 //     const foundMovie = movies.find(movie => movie._id === movieId)
 //     res.send(foundMovie)
 // })
-// //get one by genre
-// movieRouter.get("/search/genre",(req,res) => {
-//     const genre = req.query.genre
-//     const filteredMovies = movies.filter(movie => movie.genre === genre)
-//     res.send(filteredMovies)
-// })
+//get one by genre
+movieRouter.get("/search/genre",(req,res,next)  => {
+    Movie.find({genre:req.query.genre}),(err,movies) => {
+        if(err){
+            res.status(500)
+            return next(err)
+        }
+        return res.status(200).send(movies)
+    }
+})
 
 //delete one
 movieRouter.delete("/:movieId",(req,res,next) => {
