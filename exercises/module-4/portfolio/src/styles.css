@@ -9,146 +9,54 @@
         src: url(PortlandLdoItalic-owPz.ttf);
         
     }
-    @media only screen and (max-width:400px){
-
-        .myName{
-            display: flex;
-            align-items: center;
-            font-size:5px;
-        }
-        .nav {
-            display: flex;
-            height:5vh;
-            justify-content: flex-end;
-            background-color:rgb(53, 53, 53);
-        }
-        .developer{
-            font-size:10px;
-        }
-        .projects{
-            font-size:10px;
-        }
-        .box{
-            display:flex;
-            justify-content: space-evenly;
-        }
-        .api{
-            font-size:10px;
-
-        }
-        .cg{
-            font-size:10px;
-            margin-top:5%;
-        }
-        .rick{
-            display:block;
-            justify-content: center;
-            margin-left:auto;
-            margin-right:auto;
-            height:200px;
-            width:175px;
-            margin-bottom:4%;
-            margin-top:4%;
-        }
-        .morty{
-            display:block;
-            justify-content: center;
-            margin-left:auto;
-            margin-right:auto;
-            height:200px;
-            width:125px;
-        }
-        .box1{
-            display:flex;
-            justify-content: space-evenly;
-        }
-        .ghosts{
-            display:block;
-            justify-content: center;
-            margin-left:auto;
-            margin-right:auto;
-            height:215px;
-            width:140px;
-            margin-bottom:4%;
-            margin-top:4%;
-        }
-        .ghosts1{
-            display:block;
-            justify-content: center;
-            margin-left:auto;
-            margin-right:auto;
-            height:215px;
-            width:140px;
-            margin-bottom:4%;
-            margin-top:4%;
-        }
-        .box2{
-            display:flex;
-            justify-content: space-evenly;
-        }
-        .ghosts2{
-            display:block;
-            justify-content: center;
-            margin-left:auto;
-            margin-right:auto;
-            height:215px;
-            width:140px;
-            margin-bottom:4%;
-            margin-top:4%;
-        }
-        .ghosts3{
-            display:block;
-            justify-content: center;
-            margin-left:auto;
-            margin-right:auto;
-            height:215px;
-            width:140px;
-            margin-bottom:4%;
-            margin-top:4%;
-        }
-        .contact{
-            background-size:cover;
-            background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-            height:200px;
-            opacity: 0.9;
-        }
-
-    }
-    @media only screen and (max-width:600px){
-
-    body{
-        background-color:darkgray;
-        width:100%;
-    }
-    
-    .nav {
-        display: flex;
-        height:8vh;
-        justify-content: flex-end;
-        align-items: center;
-        background-color:rgb(53, 53, 53);
-    }
-
-    a{
-        margin:2%;
-    }
-    .contact{
-        background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-        background-size: cover;
-        height:300px;
-        opacity: 0.9;
-    }
     .box{
         display:flex;
         justify-content: space-evenly;
+        align-items:center;
+    }
+    .projects{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .bio {
+        color:whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        position: relative;    
+    }
+    .bio1{
+        color:whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        position: relative;    
+    }
+    body {
+        background-color:darkgrey;
+        background-size: 100%;
+            
+    } 
+    .myName{
+        display: flex;
+        align-items: center;
+    }
+    .nav {
+        display: flex;
+        height:5vh;
+        justify-content: flex-end;
+        background-color:rgb(53, 53, 53);
+    }
+    a{
+        margin:2%;
+    }
+    .box1{
+        display:flex;
+        justify-content: center;
+        margin-bottom:10%;
     }
     .rick{
         display:block;
         justify-content: center;
         margin-left:auto;
         margin-right:auto;
-        height:200px;
-        width:165px;
         margin-bottom:4%;
         margin-top:4%;
     }
@@ -157,21 +65,14 @@
         justify-content: center;
         margin-left:auto;
         margin-right:auto;
-        height:225px;
-        width:125px;
+        margin-bottom:4%;
         margin-top:4%;
-    }
-    .box1{
-        display:flex;
-        justify-content: space-evenly;
     }
     .ghosts{
         display:block;
         justify-content: center;
         margin-left:auto;
         margin-right:auto;
-        height:215px;
-        width:130px;
         margin-bottom:4%;
         margin-top:4%;
     }
@@ -180,43 +81,99 @@
         justify-content: center;
         margin-left:auto;
         margin-right:auto;
-        height:215px;
-        width:130px;
         margin-bottom:4%;
         margin-top:4%;
     }
-    .box2{
-        display:flex;
-        justify-content: space-evenly;
+
+
+    @media only screen and (max-width:400px){
+        .myName{
+            font-size:5px;
+        }
+        .developer{
+            font-size:10px;
+        }
+        .projects{
+            font-size:10px;
+            margin-bottom:15%;
+        }
+        .api{
+            font-size:10px;
+            margin-bottom:5%;
+        }
+        .bio{
+            font-size:10px;
+        }
+        .bio1{
+            font-size:10px;
+        }
+        .cg{
+            font-size:10px;
+            margin-top:5%;
+        }
+        .rick{
+            height:100px;
+            width:150px;
+        }
+        .morty{
+            height:100px;
+            width:150px;
+        }
+        .box1{
+            display:flex;
+            justify-content: space-evenly;
+        }
+        .ghosts{
+            height:100px;
+            width:150px;
+        }
+        .ghosts1{
+            height:215px;
+            width:140px;
+        }
+        .contact{
+            background-size:cover;
+            background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+            height:200px;
+            opacity: 0.9;
+        }
     }
-    .ghosts2{
-        display:block;
-        justify-content: center;
-        margin-left:auto;
-        margin-right:auto;
-        height:215px;
-        width:130px;
-        margin-bottom:4%;
-        margin-top:4%;
+
+    @media only screen and (max-width:600px){
+    .nav {
+        height:8vh;
+        justify-content: flex-end;
+        align-items: center;
+        background-color:rgb(53, 53, 53);
     }
-    .ghosts3{
-        display:block;
-        justify-content: center;
-        margin-left:auto;
-        margin-right:auto;
-        height:215px;
-        width:130px;
-        margin-bottom:4%;
-        margin-top:4%;
+    .contact{
+        background-image: url(https://images.pexels.com/photos/3759108/pexels-photo-3759108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        background-size: cover;
+        height:300px;
+        opacity: 0.9;
+    }
+    .rick{
+        height:250px;
+        width:150px;
+    }
+    .morty{
+        height:250px;
+        width:150px;
+    }
+    .ghosts{
+        height:250px;
+        width:150px;
+    }
+    .ghosts1{
+        height:250px;
+        width:150px;
     }
     .gitImg{
         display: flex;
         justify-content: center;
         align-items: center;
         height:30px;
-        width:30px;
-       
-        
+        width:30px;    
     }
     .linkedIn{
         display: flex;
@@ -224,10 +181,8 @@
         margin-right: 25px;
         align-items: center;
         height:30px;
-        width:30px;
-       
+        width:30px;    
     }
-    
     .myName {
         display: flex;
         align-items: center;
@@ -239,24 +194,22 @@
         margin-top:-7%;
        
     }
-    
     .developer{
         margin-left:3%;
         margin-top:10%;
         color: whitesmoke;
         font-size: 22px;
         font-family:'Roboto', sans-serif;
-        position: relative;
-        
+        position: relative;    
     }
     .projects{
-        margin-left:3%;
         margin-top:10%;
         color: whitesmoke;
         font-size: 25px;
         font-family:'Roboto', sans-serif;
         position: relative;
         text-decoration: underline;
+        margin-bottom:10%;
     }
     .api{
         margin-left:3%;
@@ -265,6 +218,8 @@
         font-size: 18px;
         font-family:'Roboto', sans-serif;
         position: relative;
+        margin-bottom:10%;
+    
     }
     .cg{
         margin-left:7%;
@@ -273,24 +228,18 @@
         font-size: 18px;
         font-family:'Roboto', sans-serif;
         position: relative;
-    
     }
-
     .container{
         display:grid;
-
     }
-    
     .myEmail {
         margin-top:2%;
         margin-left: 5%;
         color: whitesmoke;
         font-size: 18px;
         font-family:'Roboto', sans-serif;
-        position: relative;
-        
+        position: relative;    
     }
-    
     .phone {
         margin-left:5%;
         color: whitesmoke;
@@ -304,36 +253,18 @@
         justify-content: center;
         align-items: center;
         height:30px;
-        width:30px;
-        
+        width:30px;    
     }
-   
     .language {
         margin-left:5%;
         color: whitesmoke;
         font-size: 18px;
         font-family:'Roboto', sans-serif;
-        position: relative;
-       
+        position: relative;   
     }
-    .bio {
-        margin-left:5%;
-        color: whitesmoke;;
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
-        position: relative;
-        
-    }
-
 }
 
 @media only screen and (min-width:600px){
-
-    body {
-        background-color:darkgrey;
-        background-size: cover;
-            
-        } 
     .nav{
         display: flex;
         justify-content: flex-end;
@@ -346,10 +277,6 @@
         color: rgb(247, 247, 247);
         font-size: 20px;
         
-    }
-    .box{
-        display:flex;
-        justify-content: space-evenly;
     }
     .rick{
         display:block;
@@ -391,30 +318,6 @@
         margin-right:auto;
         height:450px;
         width:255px;
-        margin-bottom:4%;
-        margin-top:4%;
-    }
-    .box2{
-        display:flex;
-        justify-content: space-evenly;
-    }
-    .ghosts2{
-        display:block;
-        justify-content: center;
-        margin-left:auto;
-        margin-right:auto;
-        height:450px;
-        width:275px;
-        margin-bottom:4%;
-        margin-top:4%;
-    }
-    .ghosts3{
-        display:block;
-        justify-content: center;
-        margin-left:auto;
-        margin-right:auto;
-        height:450px;
-        width:265px;
         margin-bottom:4%;
         margin-top:4%;
     }
@@ -472,8 +375,9 @@
         font-size: 50px;
         font-family:'Roboto', sans-serif;
         position: relative;
-        margin-top: 5%;
+        margin-top: 10%;
         text-decoration: underline;
+        margin-bottom:10%;
     }
     .api{
         color:whitesmoke;
@@ -481,6 +385,8 @@
         font-family:'Roboto', sans-serif;
         position: relative;
         margin-top: 5%;
+        margin-left:5%;
+        margin-bottom: 10%;
     }
     .cg{
         color:whitesmoke;
@@ -489,6 +395,7 @@
         position: relative;
         margin-left: 8%;
         margin-top: 10%;
+        margin-bottom: 10%;
     }
     .myEmail {
         
@@ -515,22 +422,14 @@
         position: relative;
     }
     .bio {
-        
-        color: whitesmoke;
-        font-size: 25px;
-        font-family: 'Roboto', sans-serif;
-        position: relative;
-        
+        font-size:20px;
     }
-}
-    
+    .bio1{
+        font-size:20px;
+    }
+}   
 @media only screen and (min-width:1000px){
-   
-body {
-    background-color:darkgrey;
-    background-size: cover;
-        
-    } 
+
 .nav {
     
     display: flex;
@@ -554,7 +453,7 @@ body {
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
-    height:500px;
+    height:600px;
     width:375px;
     margin-bottom:4%;
     margin-top:4%;
@@ -564,7 +463,7 @@ body {
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
-    height:525px;
+    height:600px;
     width:275px;
     margin-top:4%;
 }
@@ -577,8 +476,8 @@ body {
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
-    height:450px;
-    width:255px;
+    height:600px;
+    width:275px;
     margin-bottom:4%;
     margin-top:4%;
 }
@@ -587,35 +486,12 @@ body {
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
-    height:450px;
-    width:255px;
+    height:600px;
+    width:375px;
     margin-bottom:4%;
     margin-top:4%;
 }
-.box2{
-    display:flex;
-    justify-content: space-evenly;
-}
-.ghosts2{
-    display:block;
-    justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
-    height:450px;
-    width:275px;
-    margin-bottom:4%;
-    margin-top:4%;
-}
-.ghosts3{
-    display:block;
-    justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
-    height:450px;
-    width:265px;
-    margin-bottom:4%;
-    margin-top:4%;
-}
+
 .linkedIn{
     display: flex;
     justify-content: center;
@@ -679,7 +555,7 @@ body {
     font-size:55px;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    margin-bottom:2%;    
+    margin-bottom:7%;    
 }
 .api{
     color:whitesmoke;
@@ -705,15 +581,7 @@ body {
     position: relative;
     margin-top:3%;
 }
-.bio {
-    margin-left:10%;
-    color:whitesmoke;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    
-    
-}
+
 }
 
 

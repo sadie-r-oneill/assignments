@@ -34,10 +34,10 @@ export default function RicknMortyProvider(props){
         fetch(`https://rickandmortyapi.com/api/character/?name=${userInput}`)
         .then(response => response.json())
         .then(response => {
-           
+            
             setUserInput(response.results[0])
         })
-        console.log("fired")
+        .catch(err => console.log(err))
     }
   
 

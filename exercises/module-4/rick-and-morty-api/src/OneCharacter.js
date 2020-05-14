@@ -12,10 +12,8 @@ export default function OneCharacter(props){
         <div className = "oneChar">
             <h2>name:{userInput.name} </h2>
             <h2>status:{userInput.status}</h2>
-            {/* <h2>species = {userInput.species}</h2> */}
             <h2>type: {userInput.type}</h2>
             <h2>gender: {userInput.gender}</h2>
-            {/* <h2>origin = {userInput.origin}</h2> */}
             <img src = {userInput.image} />
         </div>
     )

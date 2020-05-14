@@ -58,9 +58,9 @@ const Photo = styled.div`
         margin-top:5%;
        
     }
+    `
    
 
-`
 export default function Char(){
     const {getChar} = useContext(RickAndMortyContext)
     const [inputs, setInputs] = useState("")  
@@ -85,9 +85,9 @@ export default function Char(){
                     <Link to = {`/OneCharacter/${inputs}`}>
                         <button className = "button1">See Character!</button>
                     </Link>
-                    
                 </form>
         </div>
+                    
     )
                     
 }

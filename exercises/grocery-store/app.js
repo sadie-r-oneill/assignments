@@ -3,7 +3,8 @@ var shopper= {
   lastName: "Shmo",
   age: 32,
   isShopping: true,
-  hello: function()}
+}
+function()
     
    console.log("Suuhhh Dude")
   
@@ -11,7 +12,7 @@ var shopper= {
   var fruit = ["banana", "apple", "orange", "watermelon"];
   var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
 
-  vegetables.pop(){}
+  vegetables.pop()
   console.log(vegetables)
 
   fruit.shift()
